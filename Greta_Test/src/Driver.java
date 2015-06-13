@@ -80,12 +80,13 @@ public class Driver {
 
 		if(start == JOptionPane.YES_OPTION) {
 			Answer ans = new Answer();
-			String question = "";
+			String question = "", bpFile = "";
 			Speech Q = new Speech();
 			int step = 1, c, answer;
 			XMLinfo xml = new XMLinfo();
 			xml.setCurrType(-1);
 			int type = 0;
+			ArrayList<String> questionTokens = new ArrayList<String>();
 
 			do {
 
@@ -107,16 +108,22 @@ public class Driver {
 					if(eng) {
 
 						question = Q.getEngText();
+						questionTokens = parseQuestion(question);
+						bpFile = searchPart(questionTokens, engList);
 
 					}
 					else {
 
 						question = Q.getFilText();
 						question = strPhonetics(question);
+						questionTokens = parseQuestion(question);
+						bpFile = searchPart(questionTokens, filList);
+
 					}
 
 					//editXML(xmlFile, question);
 					//execGreta(xmlFile);
+					//execGreta(bpFile);
 					ans = displayUI(Q,eng);
 					answer = ans.getAnswer();
 
