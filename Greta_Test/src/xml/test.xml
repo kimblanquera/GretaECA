@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<marvel>
+	<character type="superhero" race="human">
+		<lastname>Rogers</lastname>
+		<firstname>Steve</firstname>
+		<alias>Captain America</alias>
+		<weapon type="shield">
+			<name>Shield</name>
+			<material>Vibranium</material>
+		</weapon>
+	</character>
+</marvel>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE bml SYSTEM "bml.dtd">
+<bml>
+
+<speech id="s1" start="0" language="english" voice="realspeech" text="">
+	<description level="1" type="gretabml">
+	<reference>example\thierry.wav</reference>
+</description>
+</speech>
+
+
+
+<face id="emotion-1" start="0">
+	<description level="1" type="gretabml">
+	<reference>faceexp=fapfile:example\thierry_11.fap</reference>
+	</description>
+</face>
+</bml>

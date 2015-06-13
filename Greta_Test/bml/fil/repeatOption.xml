@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bml>
+    <speech id="s1" language="it" start="0.0" text="No" type="" voice="openmary">
+        <description level="1" type="gretabml">
+            <reference>tmp/from-fml-apml.pho</reference>
+        </description>No</speech>
+</bml>

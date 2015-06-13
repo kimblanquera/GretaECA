@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE bml SYSTEM "bml.dtd" []>
+<bml>
+	<head id="head1"  start="0.14" end="3.98">
+		<description level="1" type="gretabml">
+		<reference>head=head_down</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</head>
+	<face id="face1"  start="0.05" end="1.03">
+		<description level="1" type="gretabml">
+		<reference>faceexp=distress</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</face>
+	<face id="face2"  start="1.10" end="1.42">
+		<description level="1" type="gretabml">
+		<reference>faceexp=worry_masked_by_serenity</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</face>
+	<gesture id="ges1"  start="0.06" end="1.29">
+		<description level="1" type="gretabml">
+		<reference>DEICTIC=CHEST</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</gesture>
+	<gesture id="ges2"  start="1.45" end="1.19">
+		<description level="1" type="gretabml">
+		<reference>BEAT=BEAT1BOTH</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</gesture>
+</bml>

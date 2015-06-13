@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE bml SYSTEM "bml.dtd" []>
+<bml>
+<speech id="s1" start="0.0" language="english" voice="realspeech"  text="Bonjour marie fleur jahhad drh installez vous.">
+<description level="1" type="gretabml">
+<reference>example/audio15.pho</reference>
+</description>
+<tm id="tm1"/>
+Bonjour   
+<tm id="tm2"/>
+marie fleur jahhad
+<tm id="tm3"/>
+dhd
+<tm id="tm4"/>
+installez vous
+<tm id="tm5"/>
+</speech>
+</bml>

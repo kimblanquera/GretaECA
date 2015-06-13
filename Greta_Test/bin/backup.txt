@@ -1,0 +1,580 @@
+import com.sun.org.apache.xerces.internal.parsers.DOMParser;
+import com.sun.org.apache.xml.internal.serialize.OutputFormat;
+import com.sun.org.apache.xml.internal.serialize.XMLSerializer;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.util.ArrayList;
+import java.util.Scanner;
+//import java.util.Timer;
+import java.util.TimerTask;
+
+import javax.swing.*;
+
+import java.util.*;
+import java.util.concurrent.TimeUnit;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import connection.Connect;
+import connection.ConnectInt;
+import Bean.Speech;
+import Impl.SpeechImplementation;
+import Interface.SpeechInterface;
+import Bean.XMLinfo;
+public class Driver {
+
+	private static boolean confirm;
+	private static int answer;
+	
+	public static void main(String args[]) throws FileNotFoundException{
+
+		// READ CSV OF SAMPLE QUESTIONS
+		
+		//ArrayList<gretaSpeech> questions = new ArrayList<gretaSpeech>();
+		
+		GregorianCalendar today = new GregorianCalendar();
+		int t = today.get(Calendar.AM_PM);
+		
+		ArrayList<Speech> list = new ArrayList<Speech>();
+		SpeechInterface speechInt = new SpeechImplementation();
+		boolean cancel = false, eng = false, next = false;
+		int start = 0, x = 0;
+		Speech q = new Speech();
+		String disp = "", yes = "", no = "", lang = "";
+		
+		JFrame frame = new JFrame();
+		
+		String s = "Select Language";
+		q.setEngText(s);
+		q.setEngYes("English");
+		q.setEngNo("Filipino");
+		
+		//int choice = JOptionPane.showOptionDialog(frame, s, "Language Selection", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE, null, langOptions, langOptions[1]);
+			
+		displayOptions(frame, q, true);
+		
+		if (q.getAnswer() == 0) {
+			
+			eng = true;
+			System.out.println("English");
+			
+		}
+		else if(q.getAnswer() == 1) {
+			
+			eng = false;
+			System.out.println("Tagalog");
+			
+		}
+		/*
+		if(eng) {
+		
+			
+			lang = "eng";
+			
+			if(t==1) { // AFTERNOON
+				
+				//execGreta("bml/" + lang + "/hello2.xml");
+				
+			}
+			else // MORNING
+				//execGreta("bml/" + lang + "/hello.xml");
+			
+			try {
+				
+				TimeUnit.SECONDS.sleep(3);
+				
+			}
+			catch(InterruptedException e) {
+				
+			}
+			
+			
+			s = "Begin Consultation?";
+			Object[] options = {
+					
+					"Yes",
+					"No"
+					
+			};
+			
+			start = JOptionPane.showOptionDialog(frame, s, "Select your answer.", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[1]);
+			
+		}
+		else {
+		
+			lang = "fil";
+			
+			if(t==1) { // AFTERNOON
+				   
+				//execGreta("bml/" + lang + "/hell o.xml");
+				
+			}
+			else // MORNING
+				//execGreta("bml/" + lang + "/hello2.xml");
+			
+			try {
+				
+				TimeUnit.SECONDS.sleep(3);
+				
+			}
+			catch(InterruptedException e) {
+				
+			}
+			
+			s = "Simulan ang konsultasyon?";
+			Object[] options = {
+					
+					"Oo",
+					"Hindi"
+					
+			};
+			
+			start = JOptionPane.showOptionDialog(frame, s, "Piliin ang iyong sagot.", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[1]);
+			
+		}*/
+		
+		/*
+		if (start != JOptionPane.NO_OPTION && start != JOptionPane.CLOSED_OPTION) {
+		
+			System.out.println("entered if start");
+			Speech Q = new Speech();
+			int step = 1, c, answer;
+			XMLinfo xml = new XMLinfo();
+			xml.setCurrType(-1);
+			int type = 0;
+			
+			do {			
+				
+				list = speechInt.getQuestionByStep(step);
+				next = false;
+				
+				for (c = 0; c < list.size() && !next && !cancel; c++) {
+					
+					Q = list.get(c);
+					System.out.println(Q.getEngText());
+					type = speechInt.getType(Q.getTextTypeID(), Q.getIntentTypeID());
+					xml = speechInt.getXML(type, lang, xml.getCurrType());
+					String xmlFile = xml.getFileName();
+					answer = agentSpeak(xmlFile, eng, lang, Q);
+					
+					if(answer == JOptionPane.YES_OPTION) {
+						
+						next = true;
+						step = Q.getYesNext();
+						System.out.println("Next step: " + step);
+				
+					}
+					else if(answer == -1 || answer == 3) {
+						
+						cancel = true;
+						
+					}
+					
+				}
+				
+				try {
+					
+					TimeUnit.SECONDS.sleep(3);
+					
+				}
+				catch(InterruptedException e) {
+					
+				}
+				
+				if(type == 1) {
+				
+					xml = speechInt.getXML(3, lang, type);
+					String xmlFile = xml.getFileName();
+					execGreta(xmlFile);
+					
+				}
+				else if(type == 2) {
+					
+					xml = speechInt.getXML(3, lang, type);
+					String xmlFile = xml.getFileName();
+					execGreta(xmlFile);
+					
+				}
+				
+				
+				
+				if(!next) {
+					
+					step = Q.getNoNext();
+					
+				}
+				
+				if(step == -1) {
+					
+					String d = "bml/" + lang + "/instruct_hospital.xml";
+					execGreta(d);
+					cancel = true;
+				}
+				
+			}
+			while(!cancel && step != 0 && list.size() > 0);
+
+			JFrame fr = new JFrame();
+			//execGreta(); **** END OF CONSULTATION XML FILE
+			if(eng) {
+				
+				JOptionPane.showMessageDialog(fr, "The consultation has ended. Thank you.");
+				
+			}
+			else {
+			
+				JOptionPane.showMessageDialog(fr, "Tapos na ang konsultasyon. Salamat sa inyong pagsagot.");
+				
+			}
+			
+		}
+		else {
+			
+			JFrame fr = new JFrame();
+			//execGreta(); **** END OF CONSULTATION XML FILE
+			if(eng) {
+				
+				JOptionPane.showMessageDialog(fr, "The consultation has ended. Thank you.");
+				
+			}
+			else {
+			
+				JOptionPane.showMessageDialog(fr, "Tapos na ang konsultasyon. Salamat sa inyong pagsagot.");
+				
+			}
+			
+		}
+		
+		System.exit(0);
+	*/	
+	}
+	
+	
+	
+	public static void displayOptions(JFrame frame, Speech q, boolean lang) {
+		
+		if(lang) {
+			
+			// ENGLISH
+			
+			setUI(frame, q.getEngText(), q.getEngYes(), q.getEngNo(), "Cancel", q);
+			
+		}
+		else {
+			
+			// FILIPINO
+			
+			setUI(frame, q.getFilText(), q.getFilYes(), q.getFilNo(), "Ikansela", q);
+			
+		}
+						
+	}
+	
+	public static void setUI(JFrame frame, String s, String yes, String no, String cancel, final Speech q) {
+		
+		// SET UP FRAMES
+		JPanel panel = new JPanel(new BorderLayout());
+		JPanel topPanel = new JPanel();
+		JPanel midPanel = new JPanel();
+		panel.setPreferredSize(new Dimension(500,300));
+		frame.setContentPane(panel);
+		frame.pack();
+		
+		
+		JLabel question = new JLabel();
+		question.setText(s);
+						
+		ButtonGroup buttons = new ButtonGroup();
+						
+		JToggleButton yesButton = new JToggleButton();
+		yesButton.setText(yes);
+		yesButton.setEnabled(true);
+		yesButton.addActionListener(new ActionListener() {
+							
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				// TODO Auto-generated method stub
+				
+				JFrame confirmFrame = new JFrame();
+				String s = "Are you sure about your answer?";
+				Object[] langOptions = {
+				
+					"Yes",
+					"No"
+										
+				};
+								
+				int choice = JOptionPane.showOptionDialog(confirmFrame, s, "Confirm", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE, null, langOptions, langOptions[1]);
+				if (choice == JOptionPane.YES_OPTION) {
+					
+					q.setAnswer(0);
+					q.setConfirm(true);
+					//answer = 0;
+					//confirm = true;
+					//System.out.println("\nconfirm: " + confirm);
+				
+				}
+				else {
+				
+					q.setConfirm(false);
+					//confirm = false;
+					//System.out.println("\nconfirm: " + confirm);
+			
+				}
+			
+			}
+							
+							
+		});
+						
+		buttons.add(yesButton);
+		
+		JToggleButton noButton = new JToggleButton();
+		noButton.setText(no);
+		noButton.setEnabled(true);
+		noButton.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				// TODO Auto-generated method stub
+					
+				JFrame confirmFrame = new JFrame();
+				String s = "Are you sure about your answer?";
+				
+				Object[] langOptions = {
+						
+					"Yes",
+					"No"
+					
+				};
+
+				int choice = JOptionPane.showOptionDialog(confirmFrame, s, "Confirm", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE, null, langOptions, langOptions[1]);
+				
+				if (choice == JOptionPane.YES_OPTION) {
+					
+					q.setAnswer(0);
+					q.setConfirm(true);
+								
+				}
+				else
+					q.setConfirm(false);
+								
+			}
+							
+							
+		});
+						
+		buttons.add(noButton);
+
+		JToggleButton cancelButton = new JToggleButton();
+		cancelButton.setText(cancel);
+		cancelButton.setEnabled(true);
+		cancelButton.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				// TODO Auto-generated method stub
+			
+				answer = -1;
+				q.setAnswer(answer);
+				
+			}
+							
+							
+		});
+						
+		buttons.add(cancelButton);
+
+						
+		// ADD COMPONENTS
+		topPanel.add(question);
+		midPanel.add(yesButton);
+		midPanel.add(noButton);
+		panel.add(topPanel, BorderLayout.NORTH);
+		panel.add(midPanel, BorderLayout.CENTER);
+		
+		frame.setVisible(true);
+
+	}
+	
+	/*
+	public static void editXML(String filename, String speech) {
+		
+		XMLmod mod = new XMLmod();
+		
+		try {
+		    DOMParser parser = new DOMParser();
+		    parser.parse(filename);
+		    Document doc = parser.getDocument();
+		 
+		    // Get the document's root XML node
+		    NodeList root = doc.getChildNodes();
+		 
+		    // Navigate down the hierarchy to get to the CEO node
+		    Node first = mod.getNode("bml", root);
+		    NodeList firstNodes = first.getChildNodes();
+		    Node sec = mod.getNode("speech", firstNodes);
+			mod.setLastValue("speech", speech, firstNodes);
+			mod.setAttrValue(sec, "text", speech); // CHANGE ATTR VALUE
+		    
+			
+		    // OVERWRITE XML FILE
+		    doc = parser.getDocument();
+		    OutputFormat format = new OutputFormat(doc);
+		    format.setIndenting(true);
+		    XMLSerializer serializer = new XMLSerializer(
+		    new FileOutputStream(new File(filename)), format);
+		    serializer.serialize(doc);
+		    
+		}
+		catch ( Exception e ) {
+		    e.printStackTrace();
+		}
+		
+	}
+	
+	public static int displayOptions(String speech, String option1, String option2, String lang){
+		
+		String s = "", header = "";
+		
+		if(lang=="eng") {
+			
+			s = "Cancel";
+			header = "Select your choice.";
+		}
+		else if(lang=="fil") {
+			
+			s = "Ikansela";
+			header = "Piliin ang iyong sagot.";
+		}
+		
+		Object[] options = {
+				
+				option1,
+				option2,
+				"N/A",
+				s
+				
+		};
+	
+		JFrame frame = new JFrame();
+		int answer = JOptionPane.showOptionDialog(frame, speech, header, JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[2]);
+		
+		return answer;
+		
+	}
+	
+	public static int agentSpeak(String xmlFile, boolean eng, String lang, Speech Q) {
+		
+		String disp, yes, no;
+		int x;
+		
+		if(eng) {
+			
+			disp = Q.getEngText();
+			yes = Q.getEngYes();
+			no = Q.getEngNo();
+			editXML(xmlFile, disp);
+				
+		}
+		else {
+		
+			disp = Q.getFilText();
+			yes = Q.getFilYes();
+			no = Q.getFilNo();
+			editXML(xmlFile, disp);
+			
+		}
+		
+		execGreta(xmlFile);
+		
+		x = displayOptions(disp, yes, no, lang);
+		
+		return x;
+	}
+	
+	public static void execGreta(String filename) {
+		
+		
+		GretaResponse greta = new GretaResponse();
+		greta.executeArea(filename);
+		
+	}*/
+
+
+
+
+class MyTask extends TimerTask {
+	//times member represent calling times.
+	private int times = 0;
+	GretaResponse greta = new GretaResponse();
+	
+	public void run() {
+		times++;
+		if (times <= 63){
+			
+			System.out.println("TIMES: " + times);
+			
+			if (times == 2) {
+				greta.executeArea("");
+				System.out.println("I'm alive..." + times);
+			}/*
+			else if (times == 5) {
+				greta.executeArea("C:/Users/Kim/Documents/SCHOOL/THESIS/GretaTonyStark/tony_stark2.xml");
+				System.out.println("I'm alive..." + times);
+			}
+			else if (times == 12) {
+				greta.executeArea("C:/Users/Kim/Documents/SCHOOL/THESIS/GretaTonyStark/tony_stark3.xml");
+				System.out.println("I'm alive..." + times);
+			}
+			else if (times == 21) {
+				greta.executeArea("C:/Users/Kim/Documents/SCHOOL/THESIS/GretaTonyStark/tony_stark4.xml");
+				System.out.println("I'm alive..." + times);
+			}
+			else if (times == 31) {
+				greta.executeArea("C:/Users/Kim/Documents/SCHOOL/THESIS/GretaTonyStark/tony_stark5.xml");
+				System.out.println("I'm alive..." + times);
+			}
+			else if (times == 37) {
+				greta.executeArea("C:/Kim/Documents/SCHOOL/THESIS/GretaTonyStark/tony_stark6.xml");
+				System.out.println("I'm alive..." + times);
+			}
+			else if (times == 46) {
+				greta.executeArea("C:/Users/Kim/Documents/SCHOOL/THESIS/GretaTonyStark/tony_stark7.xml");
+				System.out.println("I'm alive..." + times);
+			}
+			else if (times == 50) {
+				greta.executeArea("C:/Users/Kim/Documents/SCHOOL/THESIS/GretaTonyStark/tony_stark8.xml");
+				System.out.println("I'm alive..." + times);
+			}
+			else if (times == 57) {
+				greta.executeArea("C:/Users/Kim/Documents/SCHOOL/THESIS/GretaTonyStark/tony_stark9.xml");
+				System.out.println("I'm alive..." + times);
+			}*/
+		}
+		if(times <= 10){
+			if(times == 1){
+				greta.executeArea("C:/Users/Kim/Documents/SCHOOL/THESIS/GretaTonyStark/sheldon_mindexplosion_speech.xml");
+			}else if(times == 5){
+				greta.executeArea("C:/Users/Kim/Documents/SCHOOL/THESIS/GretaTonyStark/sheldon_mindexplosion.xml");
+			}
+		}
+		else {
+			System.out.println("Timer stops now...");
+			System.exit(0);
+		}
+	}
+}
+
+}

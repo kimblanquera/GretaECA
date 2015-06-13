@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE bml SYSTEM "bml.dtd" []>
+<bml>
+	<speech id="s1" language="english" start="0.0"
+        text="You are advised to go to the hospital immediately."
+        type="application/wav" voice="openmary">
+        <description level="1" type="gretabml">
+            <reference>tmp/from-fml-apml.pho</reference>
+        </description>You are advised to go to the hospital immediately.</speech>
+    
+	<face id="face1"  start="0.03" end="1.03">
+		<description level="1" type="gretabml">
+		<reference>performative=inform</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</face>
+	<face id="face2"  start="1.18" end="1.16">
+		<description level="1" type="gretabml">
+		<reference>faceexp=sorry-for</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</face>
+	<gesture id="ges1"  start="0.38" end="1.98">
+		<description level="1" type="gretabml">
+		<reference>DEICTIC=VIEW3</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</gesture>
+	<torso id="tor1"  start="0.64" end="1.71" posture="">
+		<description level="1" type="gretabml">
+		<reference>bow</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</torso>
+</bml>

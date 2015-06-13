@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE bml SYSTEM "bml.dtd" []>
+<bml>
+	<face id="gentle"  start="0.03" end="2.98">
+		<description level="1" type="gretabml">
+		<reference>performative=propose</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</face>
+	<gesture id="gentle_gesture"  start="0.03" end="2.96">
+		<description level="1" type="gretabml">
+		<reference>ADJECTIVAL=PALM_UP_C</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</gesture>
+</bml>

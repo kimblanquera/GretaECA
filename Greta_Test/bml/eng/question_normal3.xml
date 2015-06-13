@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE bml SYSTEM "bml.dtd" []>
+<bml>
+	<head id="head1"  start="0.03" end="2.96">
+		<description level="1" type="gretabml">
+		<reference>head=head_aside_l</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</head>
+	<face id="face2"  start="0.02" end="1.06">
+		<description level="1" type="gretabml">
+		<reference>performative=announce</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</face>
+	<face id="face3"  start="1.13" end="1.20">
+		<description level="1" type="gretabml">
+		<reference>mouth=little_smile</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</face>
+	<gesture id="gesture1"  start="0.01" end="2.15">
+		<description level="1" type="gretabml">
+		<reference>BEAT=BEAT3</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</gesture>
+	<torso id="torso1"  start="0.27" end="1.69" posture="">
+		<description level="1" type="gretabml">
+		<reference>joy</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</torso>
+</bml>

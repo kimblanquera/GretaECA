@@ -1,0 +1,1191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE multimodals SYSTEM "./dtd/multimodal.dtd">
+<multimodals>
+  <multimodal emotion="embarrassmentS">
+    <signals>
+      <signal id="1" name="head=head_down_strong" type="head" repetitivity="0" min_duration="2" max_duration="4" occurence="0.5" probability_start="0.8" probability_end="0.3"/>
+      <signal id="2" name="head=head_left_strong" type="head" repetitivity="0" min_duration="5" max_duration="9" occurence="0.5" probability_start="0.1" probability_end="0.8"/>
+      <signal id="3" name="gaze=look_down" type="gaze" repetitivity="0" min_duration="2" max_duration="4" occurence="0.5" probability_start="0" probability_end="0"/>
+      <signal id="4" name="gaze=look_right_strong" type="gaze" repetitivity="0" min_duration="1" max_duration="2" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="5" name="gaze=look_left_strong" type="gaze" repetitivity="0" min_duration="1" max_duration="2" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="6" name="faceexp=embarrassment_signal_6" type="face" repetitivity="1" min_duration="2" max_duration="3" occurence="0.5" probability_start="0.6" probability_end="0.6"/>
+      <signal id="7" name="faceexp=nd_joy" type="face" repetitivity="1" min_duration="2" max_duration="4" occurence="0.5" probability_start="0.6" probability_end="0.6"/>
+      <signal id="8" name="faceexp=embarrassment_signal_8" type="face" repetitivity="1" min_duration="2" max_duration="5" occurence="0.5" probability_start="0.6" probability_end="0.6"/>
+      <signal id="9" name="faceexp=neutral" type="face" repetitivity="0" min_duration="1" max_duration="2" occurence="0.5" probability_start="0.3" probability_end="0.3"/>
+      <signal id="10" name="emotion=embarrassment_signal_10" type="gesture" repetitivity="0" min_duration="3" max_duration="5" occurence="0.5" probability_start="0.6" probability_end="0.6"/>
+      <signal id="11" name="embarrassment_signal_11" type="torso" repetitivity="0" min_duration="5" max_duration="7" occurence="0.5" probability_start="0.4" probability_end="0.9"/>
+      <signal id="12" name="emotion=panic_fear_signal_7" type="gesture" repetitivity="0" min_duration="3" max_duration="5" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+    </signals>
+    <cons>
+      <!-- ,,EXCLUDES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+      <!-- ,,head,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+      <con type="excludes">
+        <arg id="1"/>
+        <arg id="2"/>
+      </con>
+      <!-- ,gaze,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+      <con type="excludes">
+        <arg id="3"/>
+        <arg id="4"/>
+      </con>
+      <con type="excludes">
+        <arg id="3"/>
+        <arg id="5"/>
+      </con>
+      <con type="excludes">
+        <arg id="4"/>
+        <arg id="5"/>
+      </con>
+      <!-- ,,face,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+      <con type="excludes">
+        <arg id="6"/>
+        <arg id="7"/>
+      </con>
+      <con type="excludes">
+        <arg id="6"/>
+        <arg id="8"/>
+      </con>
+      <con type="excludes">
+        <arg id="6"/>
+        <arg id="9"/>
+      </con>
+      <con type="excludes">
+        <arg id="7"/>
+        <arg id="8"/>
+      </con>
+      <con type="excludes">
+        <arg id="7"/>
+        <arg id="9"/>
+      </con>
+      <con type="excludes">
+        <arg id="8"/>
+        <arg id="9"/>
+      </con>
+    </cons>
+  </multimodal>
+  <!-- ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+  <multimodal emotion="tensionS">
+    <signals>
+      <signal id="1" name="faceexp=tension_signal_1" type="face" repetitivity="1" min_duration="1" max_duration="2" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="2" name="faceexp=tension_signal_2" type="face" repetitivity="1" min_duration="1" max_duration="2" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="3" name="faceexp=tension_signal_3" type="face" repetitivity="1" min_duration="1" max_duration="2" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="4" name="faceexp=tension_signal_4" type="face" repetitivity="1" min_duration="1" max_duration="2" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="5" name="faceexp=tension_signal_5" type="face" repetitivity="1" min_duration="1" max_duration="2" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="6" name="faceexp=tension_signal_6" type="face" repetitivity="1" min_duration="1" max_duration="4" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="7" name="faceexp=tension_signal_7" type="face" repetitivity="1" min_duration="1" max_duration="4" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="8" name="emotion=tension_signal_10" type="gesture" repetitivity="0" min_duration="2" max_duration="4" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+    </signals>
+    <cons>
+      <!-- ,others,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+      <!-- sequence 1 2 3 -->
+      <con type="and">
+        <arg>
+          <con type="equal">
+            <arg id="2" type="start"/>
+            <arg id="1" type="stop"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="exists">
+            <arg id="1"/>
+          </con>
+        </arg>
+      </con>
+      <con type="and">
+        <arg>
+          <con type="equal">
+            <arg id="3" type="start"/>
+            <arg id="2" type="stop"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="exists">
+            <arg id="2"/>
+          </con>
+        </arg>
+      </con>
+      <!-- sequence 4 5 -->
+      <con type="and">
+        <arg>
+          <con type="equal">
+            <arg id="5" type="start"/>
+            <arg id="4" type="stop"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="exists">
+            <arg id="4"/>
+          </con>
+        </arg>
+      </con>
+    </cons>
+  </multimodal>
+  <!-- ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+  <multimodal emotion="joyS">
+    <signals>
+      <signal id="1" name="faceexp=joy_signal_1" type="face" repetitivity="0" min_duration="1" max_duration="4" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="2" name="joy_signal_2" type="torso" repetitivity="0" min_duration="2" max_duration="5" occurence="0.5" probability_start="0" probability_end="0"/>
+      <signal id="3" name="faceexp=joy_signal_3" type="face" repetitivity="0" min_duration="1" max_duration="5" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="4" name="faceexp=joy_signal_4" type="face" repetitivity="0" min_duration="1" max_duration="5" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="5" name="head=nod" type="head" repetitivity="0" min_duration="1" max_duration="2" occurence="0.5" probability_start="0.0" probability_end="0.0"/>
+      <signal id="6" name="faceexp=joy_signal_6" type="face" repetitivity="0" min_duration="1" max_duration="4" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="7" name="head=joy_signal_7" type="head" repetitivity="0" min_duration="1" max_duration="2" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="8" name="head=joy_signal_8" type="head" repetitivity="0" min_duration="1" max_duration="2" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="9" name="faceexp=joy_signal_9" type="face" repetitivity="0" min_duration="1" max_duration="4" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="10" name="emotion=joy_signal_10" type="gesture" repetitivity="0" min_duration="2" max_duration="4" occurence="0.5" probability_start="0.9" probability_end="0.2"/>
+      <signal id="11" name="emotion=joy_signal_11" type="gesture" repetitivity="0" min_duration="3" max_duration="5" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="12" name="emotion=joy_signal_12" type="gesture" repetitivity="0" min_duration="2" max_duration="5" occurence="0.5" probability_start="0" probability_end="0"/>
+      <signal id="13" name="emotion=joy_signal_13" type="gesture" repetitivity="0" min_duration="2" max_duration="5" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="14" name="faceexp=joy_signal_14" type="face" repetitivity="0" min_duration="1" max_duration="4" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="15" name="faceexp=joy_signal_15" type="face" repetitivity="0" min_duration="1" max_duration="4" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="16" name="joy_signal_16" type="torso" repetitivity="0" min_duration="2" max_duration="4" occurence="0.5" probability_start="0" probability_end="0"/>
+      <signal id="17" name="joy_signal_17" type="torso" repetitivity="0" min_duration="2" max_duration="4" occurence="0.5" probability_start="0" probability_end="0"/>
+      <signal id="18" name="joy_signal_18" type="torso" repetitivity="0" min_duration="2" max_duration="4" occurence="0.5" probability_start="0" probability_end="0"/>
+      <signal id="19" name="joy_signal_19" type="torso" repetitivity="0" min_duration="2" max_duration="4" occurence="0.5" probability_start="0" probability_end="0"/>
+    </signals>
+    <cons>
+      <!-- ,others,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+      <!-- 2 occurs after 1 or after 3-->
+      <con type="or">
+        <arg>
+          <con type="and">
+            <arg>
+              <con type="preceded">
+                <arg id="2"/>
+                <arg id="1"/>
+              </con>
+            </arg>
+            <arg>
+              <con type="exists">
+                <arg id="1"/>
+              </con>
+            </arg>
+          </con>
+        </arg>
+        <arg>
+          <con type="and">
+            <arg>
+              <con type="preceded">
+                <arg id="2"/>
+                <arg id="3"/>
+              </con>
+            </arg>
+            <arg>
+              <con type="exists">
+                <arg id="3"/>
+              </con>
+            </arg>
+          </con>
+        </arg>
+      </con>
+      <!-- the sequence "7 8" is after 1 or 3 or 5 -->
+      <con type="and">
+        <arg>
+          <con type="or">
+            <arg>
+              <con type="morethan">
+                <arg id="7" type="start"/>
+                <arg id="8" type="stop"/>
+              </con>
+            </arg>
+            <arg>
+              <con type="morethan">
+                <arg id="8" type="start"/>
+                <arg id="7" type="stop"/>
+              </con>
+            </arg>
+          </con>
+        </arg>
+        <arg>
+          <con type="or">
+            <arg>
+              <con type="exists">
+                <arg id="1"/>
+              </con>
+            </arg>
+            <arg>
+              <con type="or">
+                <arg>
+                  <con type="exists">
+                    <arg id="3"/>
+                  </con>
+                </arg>
+                <arg>
+                  <con type="exists">
+                    <arg id="4"/>
+                  </con>
+                </arg>
+              </con>
+            </arg>
+          </con>
+        </arg>
+      </con>
+      <!-- 5 is after 1 or 3 or 4 -->
+      <con type="and">
+        <arg>
+          <con type="or">
+            <arg>
+              <con type="rightinc">
+                <arg id="5"/>
+                <arg id="1"/>
+              </con>
+            </arg>
+            <arg>
+              <con type="or">
+                <arg>
+                  <con type="rightinc">
+                    <arg id="4"/>
+                    <arg id="1"/>
+                  </con>
+                </arg>
+                <arg>
+                  <con type="rightinc">
+                    <arg id="5"/>
+                    <arg id="3"/>
+                  </con>
+                </arg>
+              </con>
+            </arg>
+          </con>
+        </arg>
+        <arg>
+          <con type="or">
+            <arg>
+              <con type="exists">
+                <arg id="1"/>
+              </con>
+            </arg>
+            <arg>
+              <con type="or">
+                <arg>
+                  <con type="exists">
+                    <arg id="3"/>
+                  </con>
+                </arg>
+                <arg>
+                  <con type="exists">
+                    <arg id="4"/>
+                  </con>
+                </arg>
+              </con>
+            </arg>
+          </con>
+        </arg>
+      </con>
+      <!-- ,,EXCLUDES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+      <con type="excludes">
+        <arg id="1"/>
+        <arg id="3"/>
+      </con>
+      <con type="excludes">
+        <arg id="1"/>
+        <arg id="4"/>
+      </con>
+      <con type="excludes">
+        <arg id="1"/>
+        <arg id="6"/>
+      </con>
+      <con type="excludes">
+        <arg id="1"/>
+        <arg id="9"/>
+      </con>
+      <con type="excludes">
+        <arg id="1"/>
+        <arg id="14"/>
+      </con>
+      <con type="excludes">
+        <arg id="1"/>
+        <arg id="15"/>
+      </con>
+      <con type="excludes">
+        <arg id="4"/>
+        <arg id="3"/>
+      </con>
+      <con type="excludes">
+        <arg id="6"/>
+        <arg id="3"/>
+      </con>
+      <con type="excludes">
+        <arg id="9"/>
+        <arg id="3"/>
+      </con>
+      <con type="excludes">
+        <arg id="14"/>
+        <arg id="3"/>
+      </con>
+      <con type="excludes">
+        <arg id="15"/>
+        <arg id="3"/>
+      </con>
+      <con type="excludes">
+        <arg id="6"/>
+        <arg id="4"/>
+      </con>
+      <con type="excludes">
+        <arg id="9"/>
+        <arg id="4"/>
+      </con>
+      <con type="excludes">
+        <arg id="19"/>
+        <arg id="4"/>
+      </con>
+      <con type="excludes">
+        <arg id="15"/>
+        <arg id="4"/>
+      </con>
+      <con type="excludes">
+        <arg id="6"/>
+        <arg id="9"/>
+      </con>
+      <con type="excludes">
+        <arg id="6"/>
+        <arg id="14"/>
+      </con>
+      <con type="excludes">
+        <arg id="6"/>
+        <arg id="15"/>
+      </con>
+      <con type="excludes">
+        <arg id="14"/>
+        <arg id="9"/>
+      </con>
+      <con type="excludes">
+        <arg id="5"/>
+        <arg id="9"/>
+      </con>
+      <con type="excludes">
+        <arg id="14"/>
+        <arg id="15"/>
+      </con>
+      <con type="excludes">
+        <arg id="10"/>
+        <arg id="11"/>
+      </con>
+      <con type="excludes">
+        <arg id="10"/>
+        <arg id="13"/>
+      </con>
+      <con type="excludes">
+        <arg id="11"/>
+        <arg id="13"/>
+      </con>
+    </cons>
+  </multimodal>
+  <!-- ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+  <multimodal emotion="angerS">
+    <signals>
+      <signal id="1" name="faceexp=anger_signal_1" type="face" repetitivity="0" min_duration="1" max_duration="4" occurence="0.5" probability_start="0.7" probability_end="0.7"/>
+      <signal id="2" name="faceexp=anger_signal_2" type="face" repetitivity="0" min_duration="1" max_duration="4" occurence="0.5" probability_start="0.2" probability_end="0.2"/>
+      <signal id="3" name="anger_signal_3" type="torso" repetitivity="0" min_duration="2" max_duration="5" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="4" name="emotion=anger_signal_4" type="gesture" repetitivity="0" min_duration="2" max_duration="5" occurence="0.5" probability_start="0.7" probability_end="0.7"/>
+      <signal id="5" name="emotion=anger_signal_5" type="gesture" repetitivity="0" min_duration="2" max_duration="5" occurence="0.5" probability_start="0.7" probability_end="0.7"/>
+      <signal id="6" name="emotion=anger_signal_6" type="gesture" repetitivity="0" min_duration="2" max_duration="5" occurence="0.5" probability_start="0.7" probability_end="0.7"/>
+      <signal id="7" name="faceexp=anger_signal_7" type="face" repetitivity="1" min_duration="1" max_duration="4" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="8" name="head=nod" type="head" repetitivity="0" min_duration="1" max_duration="2" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="9" name="head=look_at" type="head" repetitivity="0" min_duration="1" max_duration="2" occurence="0" probability_start="0" probability_end="0"/>
+      <signal id="10" name="emotion=anger_signal_10" type="gesture" repetitivity="0" min_duration="2" max_duration="5" occurence="0" probability_start="0.2" probability_end="0.2"/>
+      <signal id="11" name="gaze=look_at" type="gaze" repetitivity="0" min_duration="1" max_duration="2" occurence="0" probability_start="0" probability_end="0"/>
+      <signal id="12" name="anger" type="torso" repetitivity="0" min_duration="2" max_duration="5" occurence="0" probability_start="0" probability_end="0"/>
+    </signals>
+    <cons>
+      <!-- ,,EXCLUDES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+      <con type="excludes">
+        <arg id="5"/>
+        <arg id="4"/>
+      </con>
+      <con type="excludes">
+        <arg id="4"/>
+        <arg id="6"/>
+      </con>
+      <con type="excludes">
+        <arg id="6"/>
+        <arg id="5"/>
+      </con>
+      <con type="excludes">
+        <arg id="1"/>
+        <arg id="2"/>
+      </con>
+      <con type="excludes">
+        <arg id="1"/>
+        <arg id="7"/>
+      </con>
+      <con type="excludes">
+        <arg id="2"/>
+        <arg id="7"/>
+      </con>
+      <con type="excludes">
+        <arg id="8"/>
+        <arg id="9"/>
+      </con>
+      <!-- ,others,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+      <!-- .... ????? -->
+      <con type="morethan">
+        <arg id="5" type="start"/>
+        <arg id="8" type="stop"/>
+      </con>
+      <!-- .... 3 in 1 or 2 or 7 -->
+      <con type="or">
+        <arg>
+          <con type="and">
+            <arg>
+              <con type="included">
+                <arg id="3"/>
+                <arg id="1"/>
+              </con>
+            </arg>
+            <arg>
+              <con type="exists">
+                <arg id="1"/>
+              </con>
+            </arg>
+          </con>
+        </arg>
+        <arg>
+          <con type="or">
+            <arg>
+              <con type="and">
+                <arg>
+                  <con type="included">
+                    <arg id="3"/>
+                    <arg id="2"/>
+                  </con>
+                </arg>
+                <arg>
+                  <con type="exists">
+                    <arg id="2"/>
+                  </con>
+                </arg>
+              </con>
+            </arg>
+            <arg>
+              <con type="and">
+                <arg>
+                  <con type="included">
+                    <arg id="3"/>
+                    <arg id="7"/>
+                  </con>
+                </arg>
+                <arg>
+                  <con type="exists">
+                    <arg id="7"/>
+                  </con>
+                </arg>
+              </con>
+            </arg>
+          </con>
+        </arg>
+      </con>
+      <!-- .... ????? -->
+      <con type="excludes">
+        <arg id="5"/>
+        <arg id="8"/>
+      </con>
+    </cons>
+  </multimodal>
+  <!-- ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+  <multimodal emotion="anxietyS">
+    <signals>
+      <signal id="1" name="faceexp=anxiety_signal_1" type="face" repetitivity="1" min_duration="1" max_duration="4" occurence="0.5" probability_start="0.7" probability_end="0.2"/>
+      <signal id="2" name="faceexp=anxiety_signal_2" type="face" repetitivity="0" min_duration="1" max_duration="4" occurence="0.5" probability_start="0.1" probability_end="0.6"/>
+      <signal id="3" name="faceexp=anxiety_signal_3" type="face" repetitivity="0" min_duration="1" max_duration="4" occurence="0.5" probability_start="0.1" probability_end="0.6"/>
+      <signal id="4" name="faceexp=anxiety_signal_4" type="face" repetitivity="1" min_duration="1" max_duration="4" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="5" name="gaze=blink" type="gaze" repetitivity="1" min_duration="1" max_duration="2" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="6" name="faceexp=anxiety_signal_6" type="face" repetitivity="0" min_duration="1" max_duration="4" occurence="0.5" probability_start="0.0" probability_end="0.7"/>
+      <signal id="7" name="gaze=look_right_strong" type="gaze" repetitivity="1" min_duration="1" max_duration="2" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="8" name="gaze=look_left_strong" type="gaze" repetitivity="1" min_duration="1" max_duration="2" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="9" name="emotion=anxiety_signal_9" type="gesture" repetitivity="0" min_duration="2" max_duration="5" occurence="0" probability_start="0.6" probability_end="0.6"/>
+      <signal id="10" name="emotion=anxiety_signal_10" type="gesture" repetitivity="0" min_duration="3" max_duration="6" occurence="0" probability_start="0.6" probability_end="0.6"/>
+      <signal id="11" name="emotion=anxiety_signal_11" type="gesture" repetitivity="0" min_duration="2" max_duration="5" occurence="0" probability_start="0.6" probability_end="0.6"/>
+    </signals>
+    <cons>
+      <!-- ,,EXCLUDES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+      <con type="excludes">
+        <arg id="9"/>
+        <arg id="10"/>
+      </con>
+      <con type="excludes">
+        <arg id="11"/>
+        <arg id="10"/>
+      </con>
+      <con type="excludes">
+        <arg id="1"/>
+        <arg id="6"/>
+      </con>
+      <con type="excludes">
+        <arg id="2"/>
+        <arg id="6"/>
+      </con>
+      <con type="excludes">
+        <arg id="3"/>
+        <arg id="6"/>
+      </con>
+      <con type="excludes">
+        <arg id="4"/>
+        <arg id="6"/>
+      </con>
+    </cons>
+  </multimodal>
+  <!-- ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+  <multimodal emotion="reliefS">
+    <signals>
+      <signal id="1" name="emotion=relief_signal_1" type="gesture" repetitivity="0" min_duration="2" max_duration="4" occurence="0.5" probability_start="0.0" probability_end="0.0"/>
+      <signal id="2" name="faceexp=relief_signal_2" type="face" repetitivity="0" min_duration="1" max_duration="4" occurence="0.5" probability_start="0.9" probability_end="0.0"/>
+      <signal id="3" name="head=relief_signal_3" type="head" repetitivity="0" min_duration="1" max_duration="3" occurence="0.5" probability_start="0.7" probability_end="0.0"/>
+      <signal id="4" name="relief_signal_4" type="torso" repetitivity="0" min_duration="5" max_duration="8" occurence="0.5" probability_start="0" probability_end="0"/>
+      <signal id="5" name="head=relief_signal_5" type="head" repetitivity="0" min_duration="2" max_duration="5" occurence="0.5" probability_start="0" probability_end="0"/>
+      <!-- it is similar to signal number 2 so we use only the 2 at the moment -see bugs in lexicon -->
+      <signal id="6" name="faceexp=relief_signal_6" type="face" repetitivity="0" min_duration="1" max_duration="5" occurence="0.5" probability_start="0" probability_end="0"/>
+      <signal id="7" name="gaze=relief_signal_7" type="gaze" repetitivity="0" min_duration="0.1" max_duration="2" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="8" name="faceexp=relief_signal_8" type="face" repetitivity="0" min_duration="1" max_duration="2" occurence="0.5" probability_start="0.0" probability_end="0.1"/>
+      <signal id="9" name="faceexp=relief_signal_9" type="face" repetitivity="0" min_duration="1" max_duration="5" occurence="0.5" probability_start="0" probability_end="0"/>
+      <signal id="10" name="relief_signal_10" type="torso" repetitivity="0" min_duration="4" max_duration="8" occurence="0.5" probability_start="0.6" probability_end="0.1"/>
+      <signal id="11" name="relief_signal_11" type="torso" repetitivity="0" min_duration="4" max_duration="8" occurence="0.5" probability_start="0.6" probability_end="0.1"/>
+      <signal id="12" name="faceexp=relief_signal_12" type="face" repetitivity="0" min_duration="1" max_duration="4" occurence="0.5" probability_start="0" probability_end="0.8"/>
+      <signal id="13" name="emotion=relief_signal_13" type="gesture" repetitivity="0" min_duration="2" max_duration="4" occurence="0.5" probability_start="0.1" probability_end="0.6"/>
+      <signal id="14" name="head=relief_signal_14" type="head" repetitivity="0" min_duration="1" max_duration="3" occurence="0.5" probability_start="0.7" probability_end="0.1"/>
+    </signals>
+    <cons>
+   
+   <!-- ,,EXCLUDES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+      <con type="excludes">
+        <arg id="13"/>
+        <arg id="1"/>
+      </con>
+      <con type="excludes">
+        <arg id="2"/>
+        <arg id="5"/>
+      </con>
+      <con type="excludes">
+        <arg id="2"/>
+        <arg id="6"/>
+      </con>
+      <con type="excludes">
+        <arg id="2"/>
+        <arg id="8"/>
+      </con>
+      <con type="excludes">
+        <arg id="2"/>
+        <arg id="9"/>
+      </con>
+      <con type="excludes">
+        <arg id="12"/>
+        <arg id="2"/>
+      </con>
+      <con type="excludes">
+        <arg id="6"/>
+        <arg id="5"/>
+      </con>
+      <con type="excludes">
+        <arg id="5"/>
+        <arg id="8"/>
+      </con>
+      <con type="excludes">
+        <arg id="9"/>
+        <arg id="5"/>
+      </con>
+      <con type="excludes">
+        <arg id="12"/>
+        <arg id="5"/>
+      </con>
+      <con type="excludes">
+        <arg id="6"/>
+        <arg id="8"/>
+      </con>
+      <con type="excludes">
+        <arg id="6"/>
+        <arg id="9"/>
+      </con>
+      <con type="excludes">
+        <arg id="12"/>
+        <arg id="6"/>
+      </con>
+      <con type="excludes">
+        <arg id="9"/>
+        <arg id="8"/>
+      </con>
+      <con type="excludes">
+        <arg id="12"/>
+        <arg id="8"/>
+      </con>
+      <con type="excludes">
+        <arg id="12"/>
+        <arg id="7"/>
+      </con>
+      <con type="excludes">
+        <arg id="12"/>
+        <arg id="9"/>
+      </con>
+      <con type="excludes">
+        <arg id="10"/>
+        <arg id="13"/>
+      </con>
+      <con type="excludes">
+        <arg id="11"/>
+        <arg id="13"/>
+      </con>
+      <con type="excludes">
+        <arg id="5"/>
+        <arg id="14"/>
+      </con>
+      <con type="excludes">
+        <arg id="3"/>
+        <arg id="14"/>
+      </con>
+      <con type="excludes">
+        <arg id="11"/>
+        <arg id="10"/>
+      </con>
+     
+      <con type="excludes">
+        <arg id="3"/>
+        <arg id="10"/>
+      </con>
+      <con type="excludes">
+        <arg id="5"/>
+        <arg id="10"/>
+      </con>
+
+      <con type="equal">
+        <arg id="3" type="start"/>
+        <arg id="2" type="start"/>
+      </con>
+
+      <con type="equal">
+        <arg id="3" type="stop"/>
+        <arg id="2" type="stop"/>
+      </con>
+
+      <con type="equal">
+        <arg id="14" type="start"/>
+        <arg id="2" type="start"/>
+      </con>
+     
+      <con type="lessthan">
+        <arg id="1" type="start"/>
+        <arg id="2" type="start"/>
+      </con>
+
+<con type="equal">
+        <arg id="1" type="start"/>
+        <arg id="2" type="start"/>
+      </con>
+      
+      <con type="equal">
+        <arg id="11" type="start"/>
+        <arg id="2" type="start"/>
+      </con>
+
+
+      <con type="and">
+        <arg>
+          <con type="rightinc">
+            <arg id="3" type="start"/>
+            <arg id="2" type="start"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="exists">
+            <arg id="2"/>
+          </con>
+        </arg>
+      </con>
+     
+      <con type="and">
+        <arg>
+          <con type="equal">
+            <arg id="3" type="start"/>
+            <arg id="2" type="start"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="exists">
+            <arg id="2"/>
+          </con>
+        </arg>
+      </con>
+      <con type="and">
+        <arg>
+          <con type="equal">
+            <arg id="14" type="start"/>
+            <arg id="2" type="start"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="exists">
+            <arg id="2"/>
+          </con>
+        </arg>
+      </con>
+      <con type="and">
+        <arg>
+          <con type="equal">
+            <arg id="10" type="start"/>
+            <arg id="2" type="start"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="exists">
+            <arg id="2"/>
+          </con>
+        </arg>
+      </con>
+      <con type="and">
+        <arg>
+          <con type="equal">
+            <arg id="11" type="start"/>
+            <arg id="2" type="start"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="exists">
+            <arg id="2"/>
+          </con>
+        </arg>
+      </con>
+      <con type="and">
+        <arg>
+          <con type="preceded">
+            <arg id="12"/>
+            <arg id="2"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="exists">
+            <arg id="2"/>
+          </con>
+        </arg>
+      </con>
+      <con type="equal">
+        <arg id="8" type="start"/>
+        <arg id="6" type="stop"/>
+      </con>
+      <con type="equal">
+        <arg id="9" type="start"/>
+        <arg id="8" type="stop"/>
+      </con>
+          </cons>
+  </multimodal>
+  <!-- ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+  <multimodal emotion="prideS">
+    <signals>
+      <signal id="1" name="faceexp=relief_signal_12" type="face" repetitivity="1" min_duration="2" max_duration="4" occurence="0.5" probability_start="0.5" probability_end="0.8"/>
+      <signal id="2" name="head=head_up" type="head" repetitivity="0" min_duration="2" max_duration="6" occurence="0.5" probability_start="0.8" probability_end="0.8"/>
+      <signal id="3" name="pride_signal_3" type="torso" repetitivity="0" min_duration="3" max_duration="7" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="4" name="pride_signal_4" type="torso" repetitivity="0" min_duration="3" max_duration="7" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="5" name="emotion=pride_signal_5" type="gesture" repetitivity="0" min_duration="2" max_duration="5" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="6" name="faceexp=pride_signal_6" type="face" repetitivity="0" min_duration="2" max_duration="4" occurence="0.5" probability_start="0" probability_end="0"/>
+      <signal id="7" name="emotion=joy_signal_13" type="gesture" repetitivity="0" min_duration="2" max_duration="4" occurence="0.5" probability_start="0" probability_end="0"/>
+      <signal id="8" name="head=pride_signal_8" type="head" repetitivity="0" min_duration="2" max_duration="3" occurence="0.5" probability_start="0.5" probability_end="0.1"/>
+      <signal id="9" name="head=pride_signal_9" type="head" repetitivity="0" min_duration="2" max_duration="3" occurence="0.5" probability_start="0.5" probability_end="0.1"/>
+      <signal id="10" name="emotion=anger_signal_5" type="gesture" repetitivity="0" min_duration="3" max_duration="5" occurence="0.5" probability_start="0.7" probability_end="0.7"/>
+    </signals>
+    <cons>
+      <!-- ,,EXCLUDES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+      <con type="or">
+        <arg>
+          <con type="morethan">
+            <arg id="9" type="start"/>
+            <arg id="8" type="stop"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="morethan">
+            <arg id="8" type="start"/>
+            <arg id="9" type="stop"/>
+          </con>
+        </arg>
+      </con>
+      <con type="or">
+        <arg>
+          <con type="morethan">
+            <arg id="9" type="start"/>
+            <arg id="2" type="stop"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="morethan">
+            <arg id="2" type="start"/>
+            <arg id="9" type="stop"/>
+          </con>
+        </arg>
+      </con>
+      <con type="or">
+        <arg>
+          <con type="morethan">
+            <arg id="8" type="start"/>
+            <arg id="2" type="stop"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="morethan">
+            <arg id="2" type="start"/>
+            <arg id="8" type="stop"/>
+          </con>
+        </arg>
+      </con>
+      <con type="excludes">
+        <arg id="3"/>
+        <arg id="4"/>
+      </con>
+      <con type="excludes">
+        <arg id="2"/>
+        <arg id="4"/>
+      </con>
+      <con type="and">
+        <arg>
+          <con type="equal">
+            <arg id="3" type="start"/>
+            <arg id="2" type="start"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="exists">
+            <arg id="2"/>
+          </con>
+        </arg>
+      </con>
+      <con type="and">
+        <arg>
+          <con type="equal">
+            <arg id="1" type="start"/>
+            <arg id="2" type="start"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="exists">
+            <arg id="2"/>
+          </con>
+        </arg>
+      </con>
+      <con type="and">
+        <arg>
+          <con type="equal">
+            <arg id="5" type="start"/>
+            <arg id="2" type="start"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="exists">
+            <arg id="2"/>
+          </con>
+        </arg>
+      </con>
+      <con type="and">
+        <arg>
+          <con type="equal">
+            <arg id="10" type="start"/>
+            <arg id="2" type="start"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="exists">
+            <arg id="2"/>
+          </con>
+        </arg>
+      </con>
+    </cons>
+  </multimodal>
+  <!-- ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+  <multimodal emotion="panic_fearS">
+    <signals>
+      <signal id="1" name="faceexp=panic_fear_signal_1" type="face" repetitivity="0" min_duration="2" max_duration="4" occurence="0.5" probability_start="0.8" probability_end="0.1"/>
+      <signal id="2" name="head=head_up" type="head" repetitivity="0" min_duration="2" max_duration="3" occurence="0.5" probability_start="0.8" probability_end="0.1"/>
+      <signal id="3" name="panic_fear_signal_3" type="torso" repetitivity="0" min_duration="3" max_duration="4" occurence="0.5" probability_start="0.8" probability_end="0.1"/>
+      <signal id="4" name="emotion=panic_fear_signal_4" type="gesture" repetitivity="0" min_duration="3" max_duration="5" occurence="0.5" probability_start="0.5" probability_end="0.7"/>
+      <signal id="5" name="faceexp=panic_fear_signal_5" type="face" repetitivity="0" min_duration="2" max_duration="5" occurence="0.5" probability_start="0.5" probability_end="0.5"/>
+      <signal id="6" name="faceexp=panic_fear_signal_6" type="gesture" repetitivity="0" min_duration="3" max_duration="5" occurence="0.5" probability_start="0.4" probability_end="0.2"/>
+      <signal id="7" name="emotion=panic_fear_signal_7" type="gesture" repetitivity="0" min_duration="3" max_duration="5" occurence="0.5" probability_start="0.5" probability_end="0.3"/>
+      <signal id="8" name="emotion=panic_fear_signal_8" type="gesture" repetitivity="0" min_duration="3" max_duration="5" occurence="0.5" probability_start="0.5" probability_end="0.3"/>
+      <signal id="9" name="faceexp=panic_fear_signal_9" type="face" repetitivity="0" min_duration="2" max_duration="3" occurence="0.5" probability_start="0" probability_end="0.4"/>
+      <!-- ,,10 and 11 are similar so skip,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+      <signal id="10" name="faceexp=panic_fear_signal_10" type="face" repetitivity="0" min_duration="2" max_duration="3" occurence="0.5" probability_start="0" probability_end="0"/>
+      <signal id="11" name="faceexp=panic_fear_signal_11" type="face" repetitivity="0" min_duration="2" max_duration="3" occurence="0.5" probability_start="0" probability_end="0"/>
+      <signal id="12" name="emotion=panic_fear_signal_12" type="gesture" repetitivity="0" min_duration="3" max_duration="5" occurence="0.5" probability_start="0.5" probability_end="0.2"/>
+    </signals>
+    <cons>
+      <!-- ,,EXCLUDES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+      <!-- ,,face,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+      <con type="excludes">
+        <arg id="9"/>
+        <arg id="10"/>
+      </con>
+      <con type="excludes">
+        <arg id="9"/>
+        <arg id="11"/>
+      </con>
+      <con type="excludes">
+        <arg id="10"/>
+        <arg id="11"/>
+      </con>
+      <!-- ,,gestures,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+      <con type="excludes">
+        <arg id="6"/>
+        <arg id="7"/>
+      </con>
+      <con type="excludes">
+        <arg id="6"/>
+        <arg id="8"/>
+      </con>
+      <con type="excludes">
+        <arg id="6"/>
+        <arg id="12"/>
+      </con>
+      <con type="excludes">
+        <arg id="6"/>
+        <arg id="4"/>
+      </con>
+      <con type="excludes">
+        <arg id="7"/>
+        <arg id="8"/>
+      </con>
+      <con type="excludes">
+        <arg id="7"/>
+        <arg id="12"/>
+      </con>
+      <con type="excludes">
+        <arg id="8"/>
+        <arg id="12"/>
+      </con>
+      <con type="excludes">
+        <arg id="4"/>
+        <arg id="12"/>
+      </con>
+      <!-- ,,EXCLUDES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, -->
+      <!-- .. 5 after 1  -->
+      <con type="and">
+        <arg>
+          <con type="preceded">
+            <arg id="5"/>
+            <arg id="1"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="exists">
+            <arg id="1"/>
+          </con>
+        </arg>
+      </con>
+      <!-- .. 4 after 1  -->
+      <con type="or">
+        <arg>
+          <con type="and">
+            <arg>
+              <con type="rightinc">
+                <arg id="4"/>
+                <arg id="1"/>
+              </con>
+            </arg>
+            <arg>
+              <con type="exists">
+                <arg id="1"/>
+              </con>
+            </arg>
+          </con>
+        </arg>
+        <arg>
+          <con type="and">
+            <arg>
+              <con type="preceded">
+                <arg id="4"/>
+                <arg id="1"/>
+              </con>
+            </arg>
+            <arg>
+              <con type="exists">
+                <arg id="1"/>
+              </con>
+            </arg>
+          </con>
+        </arg>
+      </con>
+      <!-- .. 6 after 1  -->
+      <con type="or">
+        <arg>
+          <con type="and">
+            <arg>
+              <con type="rightinc">
+                <arg id="6"/>
+                <arg id="1"/>
+              </con>
+            </arg>
+            <arg>
+              <con type="exists">
+                <arg id="1"/>
+              </con>
+            </arg>
+          </con>
+        </arg>
+        <arg>
+          <con type="and">
+            <arg>
+              <con type="preceded">
+                <arg id="6"/>
+                <arg id="1"/>
+              </con>
+            </arg>
+            <arg>
+              <con type="exists">
+                <arg id="1"/>
+              </con>
+            </arg>
+          </con>
+        </arg>
+      </con>
+      <!-- .. 7 after 1  -->
+      <con type="or">
+        <arg>
+          <con type="and">
+            <arg>
+              <con type="rightinc">
+                <arg id="7"/>
+                <arg id="1"/>
+              </con>
+            </arg>
+            <arg>
+              <con type="exists">
+                <arg id="1"/>
+              </con>
+            </arg>
+          </con>
+        </arg>
+        <arg>
+          <con type="and">
+            <arg>
+              <con type="preceded">
+                <arg id="7"/>
+                <arg id="1"/>
+              </con>
+            </arg>
+            <arg>
+              <con type="exists">
+                <arg id="1"/>
+              </con>
+            </arg>
+          </con>
+        </arg>
+      </con>
+      <!-- .. 8 after 1  -->
+      <con type="or">
+        <arg>
+          <con type="and">
+            <arg>
+              <con type="rightinc">
+                <arg id="8"/>
+                <arg id="1"/>
+              </con>
+            </arg>
+            <arg>
+              <con type="exists">
+                <arg id="1"/>
+              </con>
+            </arg>
+          </con>
+        </arg>
+        <arg>
+          <con type="and">
+            <arg>
+              <con type="preceded">
+                <arg id="8"/>
+                <arg id="1"/>
+              </con>
+            </arg>
+            <arg>
+              <con type="exists">
+                <arg id="1"/>
+              </con>
+            </arg>
+          </con>
+        </arg>
+      </con>
+      <!-- .. 12 ter 1  -->
+      <con type="or">
+        <arg>
+          <con type="and">
+            <arg>
+              <con type="rightinc">
+                <arg id="12"/>
+                <arg id="1"/>
+              </con>
+            </arg>
+            <arg>
+              <con type="exists">
+                <arg id="1"/>
+              </con>
+            </arg>
+          </con>
+        </arg>
+        <arg>
+          <con type="and">
+            <arg>
+              <con type="preceded">
+                <arg id="12"/>
+                <arg id="1"/>
+              </con>
+            </arg>
+            <arg>
+              <con type="exists">
+                <arg id="1"/>
+              </con>
+            </arg>
+          </con>
+        </arg>
+      </con>
+      <con type="and">
+        <arg>
+          <con type="equal">
+            <arg id="3" type="start"/>
+            <arg id="1" type="start"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="exists">
+            <arg id="1"/>
+          </con>
+        </arg>
+      </con>
+      <con type="and">
+        <arg>
+          <con type="equal">
+            <arg id="2" type="start"/>
+            <arg id="1" type="start"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="exists">
+            <arg id="1"/>
+          </con>
+        </arg>
+      </con>
+      <con type="and">
+        <arg>
+          <con type="equal">
+            <arg id="7" type="start"/>
+            <arg id="1" type="start"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="exists">
+            <arg id="1"/>
+          </con>
+        </arg>
+      </con>
+      <con type="and">
+        <arg>
+          <con type="equal">
+            <arg id="8" type="start"/>
+            <arg id="1" type="start"/>
+          </con>
+        </arg>
+        <arg>
+          <con type="exists">
+            <arg id="1"/>
+          </con>
+        </arg>
+      </con>
+      <con type="equal">
+        <arg id="3" type="start"/>
+        <arg id="2" type="start"/>
+      </con>
+    </cons>
+  </multimodal>
+</multimodals>

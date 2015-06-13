@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="AbsoluteLayout.jar"/>
+	<classpathentry kind="lib" path="JavaAIRPlug.jar"/>
+	<classpathentry kind="lib" path="weka.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Kim/Documents/SCHOOL/THESIS/Greta_Test/mysql-connector-java-5.1.29.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

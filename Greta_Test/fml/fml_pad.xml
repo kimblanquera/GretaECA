@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE fml-apml SYSTEM "fml-apml.dtd">
+<fml-apml>
+  <fml>
+    <emotion id="e0" type="P=-0.5A=0.7D=0.4" start="0.0" end="2.0"/>
+  </fml>
+</fml-apml>

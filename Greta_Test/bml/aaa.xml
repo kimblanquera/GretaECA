@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE bml SYSTEM "bml.dtd" []>
+<bml>
+<speech id="s1" start="0.0" type="" voice="openmary" language="english" text="    If you were a god.   or I were.   D.   god. I would be doing a better job. Therefore the only conclusion can be. that possibly that. God does not exist.There is no proof that God exists.
+but there is no proof that God does not exist">
+<description level="1" type="gretabml">
+<reference>tmp/from-fml-apml.pho</reference>
+</description>
+    <tm id="tm1"/>
+If you were a god.   <tm id="tm2"/>
+or I were.   <tm id="tm3"/>
+D.   <tm id="tm4"/>
+god. I would be doing a better job. Therefore the only conclusion can be. that possibly that. God does not exist.<tm id="tm5"/>
+There is no proof that God exists.<tm id="tm6"/>
+but there is no proof that God does not exist
+</speech>	<face id="a"  start="2.32" end="0.53">
+		<description level="1" type="gretabml">
+		<reference>faceexp=thegod</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</face>
+	<face id="aa"  start="0.00" end="0.75">
+		<description level="1" type="gretabml">
+		<reference>faceexp=small_anger</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</face>
+	<face id="aaa"  start="3.54" end="4.36">
+		<description level="1" type="gretabml">
+		<reference>faceexp=nodsmile</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</face>
+	<gesture id="1"  start="0.00" end="1.28">
+		<description level="1" type="gretabml">
+		<reference>MIRIAM3=IFYOUWEREAGOD</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</gesture>
+	<gesture id="2"  start="1.37" end="2.67">
+		<description level="1" type="gretabml">
+		<reference>MIRIAM3=IFIWEREAGOD</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</gesture>
+	<gesture id="3"  start="10.14" end="2.20">
+		<description level="1" type="gretabml">
+		<reference>MIRIAM3=THEREISNOPROOF</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</gesture>
+</bml>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bml>
+    <speech id="s1" language="it" start="0.0"
+        text="Mas mataas ba sa 37.5 ang temperatura ng pasyente?"
+        type="application/wav" voice="openmary">
+        <description level="1" type="gretabml">
+            <reference>tmp/from-fml-apml.pho</reference>
+        </description>Mas mataas ba sa 37.5 ang temperatura ng pasyente?</speech>
+    <head end="1.49" id="head1" start="0.00">
+        <description level="1" type="gretabml">
+            <reference>head=head_down_aside_l</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </head>
+    <face end="1.25" id="face1" start="0.11">
+        <description level="1" type="gretabml">
+            <reference>performative=advice</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </face>
+    <face end="0.64" id="face2" start="1.52">
+        <description level="1" type="gretabml">
+            <reference>mouth=smile</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </face>
+    <gesture end="1.51" id="gesture1" start="0.74">
+        <description level="1" type="gretabml">
+            <reference>DEICTIC=SELF5</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </gesture>
+</bml>

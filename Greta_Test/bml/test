@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE bml SYSTEM "bml/bml.dtd" []>
+<bml>
+<speech id="s1" start="0.0" type="" voice="openmary" language="it" text="Grazie">
+<description level="1" type="gretabml">
+<reference>tmp/from-fml-apml.pho</reference>
+</description>
+Grazie
+</speech>
+</bml>

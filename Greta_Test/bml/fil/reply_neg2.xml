@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bml>
+	<speech id="s1" language="it" start="0.0"
+        text=""
+        type="application/wav" voice="openmary">
+        <description level="1" type="gretabml">
+            <reference>tmp/from-fml-apml.pho</reference>
+        </description>
+	</speech>
+	<gaze id="look1"  start="0.41" end="0.86">
+		<description level="1" type="gretabml">
+		<reference>gaze=anxiety_signal_5</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</gaze>
+	<face id="face1"  start="0.03" end="1.05">
+		<description level="1" type="gretabml">
+		<reference>performative=approve</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</face>
+	<face id="face2"  start="1.29" end="1.04">
+		<description level="1" type="gretabml">
+		<reference>certainty=doubt</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</face>
+	<gesture id="ges1"  start="0.42" end="1.72">
+		<description level="1" type="gretabml">
+		<reference>ADJECTIVAL=SHOW_LHAND_DISC</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</gesture>
+</bml>

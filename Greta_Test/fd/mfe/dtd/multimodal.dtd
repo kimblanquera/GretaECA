@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT multimodals (multimodal)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT multimodal (cons|signals)*>
+<!ATTLIST multimodal
+    emotion CDATA #REQUIRED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT signals (signal)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT signal EMPTY>
+<!ATTLIST signal
+    name CDATA #REQUIRED
+    type CDATA #IMPLIED
+    id CDATA #REQUIRED
+    repetitivity CDATA #REQUIRED
+    min_duration CDATA #REQUIRED
+    max_duration CDATA #REQUIRED
+    occurence CDATA #REQUIRED
+    probability_start CDATA #REQUIRED
+    probability_end CDATA #REQUIRED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT cons (con)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT con ( (arg*) )>
+
+<!ATTLIST con
+    type (rightinc | included | excludes | preceded | exists | morethan | lessthan | equal | and | or | not) #REQUIRED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT arg ((con*) | EMPTY ) >
+
+<!ATTLIST arg
+    type (start|stop) #IMPLIED
+    id CDATA #IMPLIED
+  >
+

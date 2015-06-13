@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bml>
+    <speech id="s1" language="it" start="0.0"
+        text="Seenoosookah bah ng bahtah lahhaht ng eepeenahpahkaheen sah kahnyah?"
+        type="application/wav" voice="openmary">
+        <description level="1" type="gretabml">
+            <reference>tmp/from-fml-apml.pho</reference>
+        </description>Seenoosookah bah ng bahtah lahhaht ng eepeenahpahkaheen sah kahnyah?</speech>
+    <head end="1.47" id="head1" start="0.43">
+        <description level="1" type="gretabml">
+            <reference>head=small_head_down_l</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </head>
+    <gaze end="1.34" id="gaze1" start="0.44">
+        <description level="1" type="gretabml">
+            <reference>gaze=anxiety_signal_5</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </gaze>
+    <face end="1.03" id="gentle" start="0.03">
+        <description level="1" type="gretabml">
+            <reference>performative=propose</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </face>
+    <face end="1.48" id="face2" start="1.49">
+        <description level="1" type="gretabml">
+            <reference>certainty=doubt</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </face>
+    <gesture end="1.03" id="gentle_gesture" start="0.03">
+        <description level="1" type="gretabml">
+            <reference>ADJECTIVAL=PALM_UP_C</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </gesture>
+    <gesture end="1.48" id="gesture2" start="1.51">
+        <description level="1" type="gretabml">
+            <reference>DEICTIC=SELF2</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </gesture>
+</bml>

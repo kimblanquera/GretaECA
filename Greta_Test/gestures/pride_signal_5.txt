@@ -1,0 +1,27 @@
+GESTURECLASS emotion
+GESTUREINSTANCE pride_signal_5
+DURATION -1
+
+STARTFRAME 0.7
+FRAMETYPE PREPARATION
+ARM XC YCC ZMiddle
+HAND form_open thumb_default ADDNOISE
+WRIST FBAway PalmInwards 
+ENDFRAME
+
+STARTFRAME 0.8
+FRAMETYPE STROKE
+ARM XP YUpperC ZMiddle
+HAND form_open thumb_default ADDNOISE
+WRIST FBAway PalmUp FBAway PalmInwards 0.35
+
+ENDFRAME
+
+STARTFRAME 0.9
+FRAMETYPE RETRACTION
+ARM XP YUpperC ZMiddle
+HAND form_open thumb_default ADDNOISE
+WRIST FBAway PalmUp FBAway PalmInwards 0.35
+
+ENDFRAME
+

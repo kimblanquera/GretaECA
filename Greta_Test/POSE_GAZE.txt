@@ -1,0 +1,13 @@
+scale: 
+0.9
+video input: 
+1
+Dest IP:
+localhost
+Port:
+1111
+Video Display:
+1
+FPS:
+10
+

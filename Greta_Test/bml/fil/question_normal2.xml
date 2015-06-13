@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bml>
+    <speech id="s1" language="it" start="0.0"
+        text="Meron bang tunog kapag humihinga ang pasyente?"
+        type="application/wav" voice="openmary">
+        <description level="1" type="gretabml">
+            <reference>tmp/from-fml-apml.pho</reference>
+        </description>Meron bang tunog kapag humihinga ang pasyente?</speech>
+    <gaze end="0.58" id="look1" start="0.24">
+        <description level="1" type="gretabml">
+            <reference>gaze=look_at</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </gaze>
+    <face end="1.88" id="ask1" start="0.04">
+        <description level="1" type="gretabml">
+            <reference>performative=question_2</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </face>
+    <gesture end="1.05" id="ask_gesture1" start="0.86">
+        <description level="1" type="gretabml">
+            <reference>ICONIC=GREEKSSEQ2</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </gesture>
+    <torso end="0.68" id="torso1" posture="" start="0.42">
+        <description level="1" type="gretabml">
+            <reference>raise</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </torso>
+</bml>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE bml SYSTEM "bml.dtd" []>
+<bml>
+<speech id="s1" start="0.0" type="" voice="openmary" language="english" text="    A loong  time  ago  asprieng  evening  three  little  pieces  of nyght  broke away   from the sky  aaand  fall down  on the earth  
+                      ">
+<description level="1" type="gretabml">
+<reference>tmp/from-fml-apml.pho</reference>
+</description>
+    <tm id="tm1"/>
+A loong  <tm id="tm2"/>
+time  <tm id="tm3"/>
+ago  <tm id="tm4"/>
+asprieng  <tm id="tm5"/>
+evening  <tm id="tm6"/>
+three  <tm id="tm7"/>
+little  <tm id="tm8"/>
+pieces  <tm id="tm9"/>
+of nyght  <tm id="tm10"/>
+broke away   <tm id="tm11"/>
+from the sky  <tm id="tm12"/>
+aaand  <tm id="tm13"/>
+fall down  <tm id="tm14"/>
+on the earth  <tm id="tm15"/>
+                      
+</speech>	<head id="fancy-2"  type="face" start="0.00" end="0.00" stroke="0.40">
+		<description level="1" type="gretabml">
+		<reference>head=head_up_low</reference>
+		<intensity>0.01</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</head>
+	<head id="fancy-5"  type="face" start="-1.00" end="2.00" stroke="0.10">
+		<description level="1" type="gretabml">
+		<reference>head=head_up_low</reference>
+		<intensity>0.01</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</head>
+	<gaze id="left-1"  type="gaze" start="0.00" end="0.00" stroke="0.10">
+		<description level="1" type="gretabml">
+		<reference>gaze=look_left</reference>
+		<intensity>0.50</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</gaze>
+	<gaze id="up-1"  type="gaze" start="0.00" end="0.00" stroke="0.10">
+		<description level="1" type="gretabml">
+		<reference>gaze=look_up_LidsAndEys</reference>
+		<intensity>0.10</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</gaze>
+	<gaze id="right-1"  type="gaze" start="0.00" end="0.00" stroke="0.10">
+		<description level="1" type="gretabml">
+		<reference>gaze=look_right</reference>
+		<intensity>0.50</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</gaze>
+	<face id="fancy-1"  type="face" start="0.00" end="0.00" stroke="0.40">
+		<description level="1" type="gretabml">
+		<reference>faceexp=fancy</reference>
+		<intensity>0.50</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</face>
+	<face id="fancy-3"  type="face" start="0.00" end="0.00">
+		<description level="1" type="gretabml">
+		<reference>faceexp=fancy</reference>
+		<intensity>0.20</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</face>
+	<face id="fancy-4"  type="face" start="0.00" end="0.00">
+		<description level="1" type="gretabml">
+		<reference>faceexp=fancy</reference>
+		<intensity>0.30</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</face>
+	<gesture id="3piecesOfSky-1"  start="-1.00" end="0.30" stroke="0.20">
+		<description level="1" type="gretabml">
+		<reference>iconic=3piecesOfSky-1</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<OAC.value>0.00</OAC.value>
+			<PWR.value>-1.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>-0.70</SPC.value>
+			<TMP.value>0.00</TMP.value>
+			<preference.value>0.90</preference.value>
+		</description>
+	</gesture>
+	<gesture id="3piecesOfSky-2"  start="-1.00" end="0.30" stroke="0.20">
+		<description level="1" type="gretabml">
+		<reference>iconic=3piecesOfSky-2</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<OAC.value>0.00</OAC.value>
+			<PWR.value>-1.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>-0.70</SPC.value>
+			<TMP.value>0.00</TMP.value>
+			<preference.value>0.90</preference.value>
+		</description>
+	</gesture>
+	<gesture id="3piecesOfSky-3"  start="-1.00" end="0.50" stroke="0.30">
+		<description level="1" type="gretabml">
+		<reference>iconic=3piecesOfSky-3</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<OAC.value>0.00</OAC.value>
+			<PWR.value>-1.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>-0.70</SPC.value>
+			<TMP.value>0.00</TMP.value>
+			<preference.value>0.90</preference.value>
+		</description>
+	</gesture>
+	<gesture id="3piecesOfSky-4"  start="-1.00" end="2.00" stroke="1.00">
+		<description level="1" type="gretabml">
+		<reference>iconic=3piecesOfSky-5</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<OAC.value>0.00</OAC.value>
+			<PWR.value>-0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>-0.50</TMP.value>
+			<preference.value>0.90</preference.value>
+		</description>
+	</gesture>
+</bml>

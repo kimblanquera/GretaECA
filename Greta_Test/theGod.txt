@@ -1,0 +1,41 @@
+
+### DECLARATION ###
+
+<actiondeclaration name="theGod_mouth">
+<fap num="4" value="-25"/>
+<fap num="8" value="-13"/>
+<fap num="9" value="-13"/>
+<fap num="41" value="80"/>
+<fap num="42" value="80"/>
+<fap num="51" value="-6"/>
+<fap num="55" value="-3"/>
+<fap num="56" value="-3"/>
+</actiondeclaration>
+
+<actiondeclaration name="theGod_eyelids">
+<fap num="19" value="10"/>
+<fap num="20" value="10"/>
+<fap num="21" value="10"/>
+<fap num="22" value="10"/>
+</actiondeclaration>
+
+<actiondeclaration name="theGod_eyebrows">
+<fap num="31" value="173"/>
+<fap num="32" value="173"/>
+<fap num="33" value="166"/>
+<fap num="34" value="166"/>
+<fap num="35" value="95"/>
+<fap num="36" value="95"/>
+<fap num="37" value="30"/>
+<fap num="38" value="30"/>
+</actiondeclaration>
+
+
+### IMPLEMENTATION ###
+
+<expression class="faceexp" instance="theGod">
+<action name="theGod_mouth"/>
+<action name="theGod_eyelids"/>
+<action name="theGod_eyebrows"/>
+</expression>
+

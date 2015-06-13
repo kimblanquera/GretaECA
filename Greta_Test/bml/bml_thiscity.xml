@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE bml SYSTEM "bml.dtd" []>
+<bml>
+<speech id='s1' start='0.0' language="english" voice="openmary" text='This city in Szechuan was completely devastated by the earthquake in May two thousands and eight Very few buildings survived intact'>
+<description level='1' type='gretabml'>
+<reference>tmp/from-fml-apml.pho</reference>
+</description>
+<tm id='tm1'/>
+This 
+<tm id='tm2'/>
+city 
+<tm id='tm3'/>
+in 
+<tm id='tm4'/>
+Szechuan 
+<tm id='tm5'/>
+was 
+<tm id='tm6'/>
+completely 
+<tm id='tm7'/>
+devastated 
+<tm id='tm8'/>
+by the earthquake 
+<tm id='tm9'/>
+in May two thousands and eight
+<tm id='tm10'/>
+Very
+<tm id='tm11'/>
+few buildings 
+<tm id='tm12'/>
+survived intact
+<tm id='tm13'/>
+<pitchaccent id='xpa1' type='Hstar' start='s1:tm2' end='s1:tm3' level='medium' importance='1'/>
+<boundary id='b1' type='LL' start='s1:tm5' end='0.3'/>
+<pitchaccent id='xpa2' type='Lstar' start='s1:tm5' end='s1:tm7' level='medium' importance='1'/>
+<boundary id='b2' type='LL' start='s1:tm10' end='0.3'/>
+<pitchaccent id='xpa3' type='Lstar' start='s1:tm11' end='s1:tm12' level='medium' importance='1'/>
+<boundary id='b3' type='LL' start='s1:tm13' end='0.3'/>
+</speech>
+	<head id="emotion-0"  start="0.00" end="6.23" stroke="0.68">
+		<description level="1" type="gretabml">
+		<reference>down</reference>
+		<intensity>1.00</intensity>
+			<FLD.max>1.00</FLD.max>
+			<FLD.min>-1.00</FLD.min>
+			<FLD.value>-0.05</FLD.value>
+			<OAC.max>1.00</OAC.max>
+			<OAC.min>0.00</OAC.min>
+			<OAC.value>0.95</OAC.value>
+			<PWR.max>1.00</PWR.max>
+			<PWR.min>-1.00</PWR.min>
+			<PWR.value>0.10</PWR.value>
+			<REP.max>1.00</REP.max>
+			<REP.min>-1.00</REP.min>
+			<REP.value>-0.10</REP.value>
+			<SPC.max>1.00</SPC.max>
+			<SPC.min>-1.00</SPC.min>
+			<SPC.value>0.00</SPC.value>
+			<TMP.max>1.00</TMP.max>
+			<TMP.min>-1.00</TMP.min>
+			<TMP.value>0.05</TMP.value>
+			<preference.max>1.00</preference.max>
+			<preference.min>0.00</preference.min>
+			<preference.value>0.90</preference.value>
+		</description>
+	</head>
+	<gaze id="emotion-1"  start="0.00" end="6.23" stroke="0.68">
+		<description level="1" type="gretabml">
+		<reference>gaze=look_down</reference>
+		<intensity>1.00</intensity>
+			<FLD.max>1.00</FLD.max>
+			<FLD.min>-1.00</FLD.min>
+			<FLD.value>-0.05</FLD.value>
+			<OAC.max>1.00</OAC.max>
+			<OAC.min>0.00</OAC.min>
+			<OAC.value>0.95</OAC.value>
+			<PWR.max>1.00</PWR.max>
+			<PWR.min>-1.00</PWR.min>
+			<PWR.value>0.10</PWR.value>
+			<REP.max>1.00</REP.max>
+			<REP.min>-1.00</REP.min>
+			<REP.value>-0.10</REP.value>
+			<SPC.max>1.00</SPC.max>
+			<SPC.min>-1.00</SPC.min>
+			<SPC.value>0.00</SPC.value>
+			<TMP.max>1.00</TMP.max>
+			<TMP.min>-1.00</TMP.min>
+			<TMP.value>0.05</TMP.value>
+			<preference.max>1.00</preference.max>
+			<preference.min>0.00</preference.min>
+			<preference.value>0.90</preference.value>
+		</description>
+	</gaze>
+	<face id="emotion-2"  start="0.00" end="6.23" stroke="0.68">
+		<description level="1" type="gretabml">
+		<reference>faceexp=despair</reference>
+		<intensity>1.00</intensity>
+			<FLD.max>1.00</FLD.max>
+			<FLD.min>-1.00</FLD.min>
+			<FLD.value>-0.05</FLD.value>
+			<OAC.max>1.00</OAC.max>
+			<OAC.min>0.00</OAC.min>
+			<OAC.value>0.95</OAC.value>
+			<PWR.max>1.00</PWR.max>
+			<PWR.min>-1.00</PWR.min>
+			<PWR.value>0.10</PWR.value>
+			<REP.max>1.00</REP.max>
+			<REP.min>-1.00</REP.min>
+			<REP.value>-0.10</REP.value>
+			<SPC.max>1.00</SPC.max>
+			<SPC.min>-1.00</SPC.min>
+			<SPC.value>0.00</SPC.value>
+			<TMP.max>1.00</TMP.max>
+			<TMP.min>-1.00</TMP.min>
+			<TMP.value>0.05</TMP.value>
+			<preference.max>1.00</preference.max>
+			<preference.min>0.00</preference.min>
+			<preference.value>0.90</preference.value>
+		</description>
+	</face>
+	<head id="emotion-3"  start="6.57" end="2.28" stroke="1.39">
+		<description level="1" type="gretabml">
+		<reference>down</reference>
+		<intensity>1.00</intensity>
+			<FLD.max>1.00</FLD.max>
+			<FLD.min>-1.00</FLD.min>
+			<FLD.value>-0.05</FLD.value>
+			<OAC.max>1.00</OAC.max>
+			<OAC.min>0.00</OAC.min>
+			<OAC.value>0.95</OAC.value>
+			<PWR.max>1.00</PWR.max>
+			<PWR.min>-1.00</PWR.min>
+			<PWR.value>0.10</PWR.value>
+			<REP.max>1.00</REP.max>
+			<REP.min>-1.00</REP.min>
+			<REP.value>-0.10</REP.value>
+			<SPC.max>1.00</SPC.max>
+			<SPC.min>-1.00</SPC.min>
+			<SPC.value>0.00</SPC.value>
+			<TMP.max>1.00</TMP.max>
+			<TMP.min>-1.00</TMP.min>
+			<TMP.value>0.05</TMP.value>
+			<preference.max>1.00</preference.max>
+			<preference.min>0.00</preference.min>
+			<preference.value>0.90</preference.value>
+		</description>
+	</head>
+	<gaze id="emotion-4"  start="6.57" end="2.28" stroke="1.39">
+		<description level="1" type="gretabml">
+		<reference>gaze=look_down</reference>
+		<intensity>1.00</intensity>
+			<FLD.max>1.00</FLD.max>
+			<FLD.min>-1.00</FLD.min>
+			<FLD.value>-0.05</FLD.value>
+			<OAC.max>1.00</OAC.max>
+			<OAC.min>0.00</OAC.min>
+			<OAC.value>0.95</OAC.value>
+			<PWR.max>1.00</PWR.max>
+			<PWR.min>-1.00</PWR.min>
+			<PWR.value>0.10</PWR.value>
+			<REP.max>1.00</REP.max>
+			<REP.min>-1.00</REP.min>
+			<REP.value>-0.10</REP.value>
+			<SPC.max>1.00</SPC.max>
+			<SPC.min>-1.00</SPC.min>
+			<SPC.value>0.00</SPC.value>
+			<TMP.max>1.00</TMP.max>
+			<TMP.min>-1.00</TMP.min>
+			<TMP.value>0.05</TMP.value>
+			<preference.max>1.00</preference.max>
+			<preference.min>0.00</preference.min>
+			<preference.value>0.90</preference.value>
+		</description>
+	</gaze>
+	<face id="emotion-5"  start="6.57" end="2.28" stroke="1.39">
+		<description level="1" type="gretabml">
+		<reference>faceexp=despair</reference>
+		<intensity>0.2</intensity>
+			<FLD.max>1.00</FLD.max>
+			<FLD.min>-1.00</FLD.min>
+			<FLD.value>-0.05</FLD.value>
+			<OAC.max>1.00</OAC.max>
+			<OAC.min>0.00</OAC.min>
+			<OAC.value>0.95</OAC.value>
+			<PWR.max>1.00</PWR.max>
+			<PWR.min>-1.00</PWR.min>
+			<PWR.value>0.10</PWR.value>
+			<REP.max>1.00</REP.max>
+			<REP.min>-1.00</REP.min>
+			<REP.value>-0.10</REP.value>
+			<SPC.max>1.00</SPC.max>
+			<SPC.min>-1.00</SPC.min>
+			<SPC.value>0.00</SPC.value>
+			<TMP.max>1.00</TMP.max>
+			<TMP.min>-1.00</TMP.min>
+			<TMP.value>0.05</TMP.value>
+			<preference.max>1.00</preference.max>
+			<preference.min>0.00</preference.min>
+			<preference.value>0.90</preference.value>
+		</description>
+	</face>
+	<gesture id="world-6"  start="0.20" end="0.48">
+		<description level="1" type="gretabml">
+		<reference>adjectival=wipe</reference>
+		<intensity>1.00</intensity>
+			<FLD.max>1.00</FLD.max>
+			<FLD.min>-1.00</FLD.min>
+			<FLD.value>-0.05</FLD.value>
+			<OAC.max>1.00</OAC.max>
+			<OAC.min>0.00</OAC.min>
+			<OAC.value>0.25</OAC.value>
+			<PWR.max>1.00</PWR.max>
+			<PWR.min>-1.00</PWR.min>
+			<PWR.value>0.10</PWR.value>
+			<REP.max>1.00</REP.max>
+			<REP.min>-1.00</REP.min>
+			<REP.value>-0.10</REP.value>
+			<SPC.max>1.00</SPC.max>
+			<SPC.min>-1.00</SPC.min>
+			<SPC.value>0.00</SPC.value>
+			<TMP.max>1.00</TMP.max>
+			<TMP.min>-1.00</TMP.min>
+			<TMP.value>0.05</TMP.value>
+			<preference.max>1.00</preference.max>
+			<preference.min>0.00</preference.min>
+			<preference.value>0.70</preference.value>
+		</description>
+	</gesture>
+	<gesture id="belief-relation-7"  start="1.65" end="0.89" stroke="0.73">
+		<description level="1" type="gretabml">
+		<reference>ADJECTIVAL=METAPHORIC2</reference>
+		<intensity>1.00</intensity>
+			<FLD.max>1.00</FLD.max>
+			<FLD.min>-1.00</FLD.min>
+			<FLD.value>-0.05</FLD.value>
+			<OAC.max>1.00</OAC.max>
+			<OAC.min>0.00</OAC.min>
+			<OAC.value>0.25</OAC.value>
+			<PWR.max>1.00</PWR.max>
+			<PWR.min>-1.00</PWR.min>
+			<PWR.value>0.10</PWR.value>
+			<REP.max>1.00</REP.max>
+			<REP.min>-1.00</REP.min>
+			<REP.value>-0.10</REP.value>
+			<SPC.max>1.00</SPC.max>
+			<SPC.min>-1.00</SPC.min>
+			<SPC.value>0.00</SPC.value>
+			<TMP.max>1.00</TMP.max>
+			<TMP.min>-1.00</TMP.min>
+			<TMP.value>0.05</TMP.value>
+			<preference.max>1.00</preference.max>
+			<preference.min>0.00</preference.min>
+			<preference.value>0.20</preference.value>
+		</description>
+	</gesture>
+	<gesture id="world-8"  start="3.36" end="0.92" stroke="0.88">
+		<description level="1" type="gretabml">
+		<reference>adjectival=wipe</reference>
+		<intensity>1.00</intensity>
+			<FLD.max>1.00</FLD.max>
+			<FLD.min>-1.00</FLD.min>
+			<FLD.value>-0.05</FLD.value>
+			<OAC.max>1.00</OAC.max>
+			<OAC.min>0.00</OAC.min>
+			<OAC.value>0.25</OAC.value>
+			<PWR.max>1.00</PWR.max>
+			<PWR.min>-1.00</PWR.min>
+			<PWR.value>0.10</PWR.value>
+			<REP.max>1.00</REP.max>
+			<REP.min>-1.00</REP.min>
+			<REP.value>-0.10</REP.value>
+			<SPC.max>1.00</SPC.max>
+			<SPC.min>-1.00</SPC.min>
+			<SPC.value>0.00</SPC.value>
+			<TMP.max>1.00</TMP.max>
+			<TMP.min>-1.00</TMP.min>
+			<TMP.value>0.05</TMP.value>
+			<preference.max>1.00</preference.max>
+			<preference.min>0.00</preference.min>
+			<preference.value>0.70</preference.value>
+		</description>
+	</gesture>
+	<gesture id="world-9"  start="6.57" end="0.73">
+		<description level="1" type="gretabml">
+		<reference>adjectival=upright</reference>
+		<intensity>1.00</intensity>
+			<FLD.max>1.00</FLD.max>
+			<FLD.min>-1.00</FLD.min>
+			<FLD.value>-0.05</FLD.value>
+			<OAC.max>1.00</OAC.max>
+			<OAC.min>0.00</OAC.min>
+			<OAC.value>0.25</OAC.value>
+			<PWR.max>1.00</PWR.max>
+			<PWR.min>-1.00</PWR.min>
+			<PWR.value>0.10</PWR.value>
+			<REP.max>1.00</REP.max>
+			<REP.min>-1.00</REP.min>
+			<REP.value>-0.10</REP.value>
+			<SPC.max>1.00</SPC.max>
+			<SPC.min>-1.00</SPC.min>
+			<SPC.value>0.00</SPC.value>
+			<TMP.max>1.00</TMP.max>
+			<TMP.min>-1.00</TMP.min>
+			<TMP.value>0.05</TMP.value>
+			<preference.max>1.00</preference.max>
+			<preference.min>0.00</preference.min>
+			<preference.value>0.70</preference.value>
+		</description>
+	</gesture>
+</bml>

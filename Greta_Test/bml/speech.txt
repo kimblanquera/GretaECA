@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bml>
+    <!--<speech id="s1" language="it" start="0.0"
+        text="Masakit po ba ang inyong dib dib?" type="application/wav" voice="openmary">
+        <description level="1" type="gretabml">
+            <reference>tmp/from-fml-apml.pho</reference>
+        </description>Masakit po ba ang inyong dib dib?</speech>-->
+    <head end="2.11" id="head1" start="0.03">
+        <description level="1" type="gretabml">
+            <reference>head=head_aside_l</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </head>
+    <face end="1.06" id="face2" start="0.02">
+        <description level="1" type="gretabml">
+            <reference>performative=announce</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </face>
+    <face end="1.20" id="face3" start="1.13">
+        <description level="1" type="gretabml">
+            <reference>mouth=little_smile</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </face>
+    <gesture end="2.15" id="gesture1" start="0.01">
+        <description level="1" type="gretabml">
+            <reference>BEAT=BEAT3</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </gesture>
+    <torso end="1.69" id="torso1" posture="" start="0.27">
+        <description level="1" type="gretabml">
+            <reference>joy</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </torso>
+</bml>

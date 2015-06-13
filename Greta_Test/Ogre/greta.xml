@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE CHARACTER SYSTEM "character.dtd" []>
+<CHARACTER>
+
+<HEADFILES vertices="greta_animated.mesh" fdps="heads/vertices/greta_FDPs.txt" indices="heads/vertices/greta_indices.txt" hair="greta_hair.mesh" eyes_texture="green_eye"/>
+
+<BODYFILES mesh="body_woman.mesh" texture_file="body_materials2.bmp"/>
+
+<HEADPOSITION x="0" y="12" z="-1" scale="0.5"/>
+
+<LEFT_EYE x="7.6" y="0" z="11.9"/>
+<RIGHT_EYE x="-7.6" y="0" z="11.9"/>
+<EYE_SCALE factor="2.75"/>
+
+<TEETHS-TONGUE x="0" y="0.3" z="-0.4" scale="1"/>
+
+<HAIRPOSITION x="0" y="0" z="-4" scalex="52" scaley="60" scalez="60" pitch="-90"/>
+
+</CHARACTER>

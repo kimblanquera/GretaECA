@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE fml-apml SYSTEM "fml-apml.dtd">
+<fml-apml>
+  <fml>
+ 
+ <emotion id="e1" type="joy" start="1" end="8" regulation="felt"/>
+ <emotion id="e2" type="anger" start="3" end="7" regulation="felt"/>
+
+  </fml>
+</fml-apml>

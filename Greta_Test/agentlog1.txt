@@ -1,0 +1,3053 @@
+Entered SpeechInterface(0) #2 
+Entered SpeechInterface(0) #2 
+Entered ~MaryInterface()
+Entered Connect()
+initialized == true
+Entered SENDANDRECEIVE(INPUT,OUTPUTFILENAME)
+Entered out!=AUDIO
+Entered out!=AUDIO
+Entered out!=AUDIO
+Entered out!=AUDIO
+Entered out!=AUDIO
+Entered out!=AUDIO
+Entered MARYXMLTOPHONEMES
+Entered SETENGLISH
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #1
+Entered ~MaryInterface()
+Entered SpeechInterface(0) #2 
+Entered ~MaryInterface()
+Entered SpeechInterface(0) #2 
+Entered Connect()
+initialized == true
+Entered SENDANDRECEIVENOFILE
+Entered ~MaryInterface()
+Entered SpeechInterface(0) #2 
+Entered SpeechInterface(0) #2 
+Entered ~MaryInterface()
+Entered Connect()
+initialized == true
+1Entered SENDANDRECEIVE(INPUT,OUTPUTFILENAME)
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered while result>0 #2
+Entered out!=AUDIO
+Entered MARYXMLTOPHONEMES
+Entered SETENGLISH
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered SAMPATOFESTIVAL 
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #2
+Entered EXTRACTALLPHONEMES #1
+Entered ~MaryInterface()
+Entered SpeechInterface(0) #2 
+Entered ~MaryInterface()
+Entered SpeechInterface(0) #2 
+Entered Connect()
+initialized == true
+2Entered SENDANDRECEIVENOFILE
+Entered MARYXMLTOWAVEINCHAR
+Entered ~MaryInterface()

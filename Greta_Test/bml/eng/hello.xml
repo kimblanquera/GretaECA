@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bml>
+    <speech id="s1" language="english" start="0.0"
+        text="Good morning. I am Greta. I will be asking you some questions which will help the doctor assess your concerns. When answering, choose from the options that will be displayed."
+        type="application/wav" voice="openmary">
+        <description level="1" type="gretabml">
+            <reference>tmp/from-fml-apml.pho</reference>
+        </description>Good morning. I am Greta. I will be asking you some questions which will help the doctor assess your concerns. When answering, choose from the options that will be displayed.</speech>
+    <face end="1.25" id="greeting" start="0.04">
+        <description level="1" type="gretabml">
+            <reference>performative=greet</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </face>
+    <face end="3.05" id="last" start="1.94">
+        <description level="1" type="gretabml">
+            <reference>faceexp=small_joy</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </face>
+    <gesture end="1.26" id="hello" start="0.03">
+        <description level="1" type="gretabml">
+            <reference>PERFORMATIVE=GREET</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </gesture>
+    <gesture end="1.08" id="point to user" start="2.14">
+        <description level="1" type="gretabml">
+            <reference>ADJECTIVAL=OPEN_DEICTIC_HAND</reference>
+            <intensity>1.00</intensity>
+            <FLD.value>0.00</FLD.value>
+            <PWR.value>0.00</PWR.value>
+            <REP.value>0.00</REP.value>
+            <SPC.value>0.00</SPC.value>
+            <TMP.value>0.00</TMP.value>
+        </description>
+    </gesture>
+</bml>
