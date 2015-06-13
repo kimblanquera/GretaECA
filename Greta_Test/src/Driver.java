@@ -199,13 +199,16 @@ public class Driver {
 
 		try {
 			String newLine = "";
+			String delimiter = ","
 			readCSV = new BufferedReader(new FileReader(fileName));
 
 			while((newLine = readCSV.readLine()) != null) {
 
 				BodyPart bp = new BodyPart();
-				bp.setPart(newLine);
+				String array[] = newLine.split(delimiter);
+				bp.setPart(array[0]);
 				bp.setUsed(false);
+				bp.setXMLFile(array[1]);
 				list.add(bp);
 
 			}
@@ -231,8 +234,43 @@ public class Driver {
 	public static ArrayList<String> parseQuestion(String question) {
 
 		ArrayList<String> list = new ArrayList();
+		String array[] = question.split();
+		int max = array.size();
+		int c;
 
+		for(c = 0; c < max; c++) {
 
+			list.add(array.get(c));
+
+		}
+
+	}
+
+	public static String searchPart(ArrayList<String> tokens, ArrayList<BodyPart> bpList) {
+
+		int maxTokens = tokens.size();
+		int maxBP = bpList.size();
+		int c, d;
+
+		for(c = 0; c < maxTokens; c++) {
+
+			String tok = tokens.get(c);
+
+			for (d = 0; d < maxBP; d++) {
+
+				BodyPart bp = new BodyPart();
+				bp = bpList.get(d);
+
+				if(tok == bp.getPart()) {
+					bp.setUsed(true);
+					return bp.getXMLFile();
+				}
+
+			}
+
+		}
+
+		return "";
 
 	}
 
