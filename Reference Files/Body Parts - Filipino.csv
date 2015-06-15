@@ -1,7 +1,7 @@
-ulo
-tenga
-lalamunan
-ubo
-pantal
-mata
-tiyan
+ulo,headGesture.xml
+tenga,earGesture.xml
+lalamunan,throatGesture.xml
+ubo,chestGesture.xml
+pantal,rashGesture.xml
+mata,eyeGesture.xml
+tiyan,stomachGesture.xml
