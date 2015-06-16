@@ -82,7 +82,7 @@ public class Driver {
 		if(start == JOptionPane.YES_OPTION) {
 		
 			Answer ans = new Answer();
-			String question = "", bpFile = "";
+			String question = "", bpFile = "", optionsFile = "", optionList = "";
 			Speech Q = new Speech();
 			int step = 1, c, answer;
 			XMLinfo xml = new XMLinfo();
@@ -108,14 +108,18 @@ public class Driver {
 					String xmlFile = xml.getFileName();
 
 					if(eng) {
-
+						
+						optionList = "Your options are: " + Q.getEngYes() + ", " + Q.getEngNo() + " and Cancel";
+						optionsFile = "namehere";
 						question = Q.getEngText();
 						questionTokens = parseQuestion(question);
 						bpFile = searchPart(questionTokens, engList);
 
 					}
 					else {
-
+						
+						optionList = "Ang inyong mga opsyon ay: " + Q.getFilYes() + ", " + Q.getFilNo() + " at Ikansela";
+						optionsFile = "namehere";
 						question = Q.getFilText();
 						question = strPhonetics(question);
 						questionTokens = parseQuestion(question);
@@ -123,11 +127,13 @@ public class Driver {
 
 					}
 					
-					bpFile = "bml/" + bpFile;
-					editXML(xmlFile, question);
-					execGreta(xmlFile);
-					execGreta(bpFile);
-					ans = displayUI(Q,eng);
+					//bpFile = "bml/" + bpFile;
+					//editXML(xmlFile, question);
+					//execGreta(xmlFile);
+					//execGreta(bpFile);
+					//editXML(optionsFile, optionList);
+					//execGreta(optionsFile);
+					displayUI(Q,eng);
 					answer = ans.getAnswer();
 
 					// INSERT REPLY STUFF HERE
@@ -294,6 +300,7 @@ public class Driver {
 	public static Answer displayUI(Speech Q, boolean eng) {
 		Answer a = new Answer();
 		Processor p = new Processor(a,Q,eng);
+		System.out.println(p.getAns().getAnswer());
 		return p.getAns();
 
 	}

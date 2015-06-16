@@ -39,12 +39,12 @@ import Impl.SpeechImplementation;
 import Interface.SpeechInterface;
 import Bean.XMLinfo;
 
-public class Processor implements PropertyChangeListener {
+public class Processor {
 
-	private JOptionPane pane;
+	private static JOptionPane pane;
 	private Answer a;
-	private boolean lang;
-	private Speech sp;
+	private static boolean lang;
+	private static Speech sp;
 	
 	public void setAns(Answer ans) {
 		
@@ -75,7 +75,10 @@ public class Processor implements PropertyChangeListener {
 	
 	// START DRIVER()
 	public Processor(Answer ans, Speech Q, boolean eng) {
-		lang = eng;
+		
+		System.out.println("entered proc");
+		
+		final boolean language = eng;
 		a = ans;
 		a.setConfirm(false);
 		sp = Q;
@@ -110,14 +113,27 @@ public class Processor implements PropertyChangeListener {
 			cancel
 				
 		};
+		JFrame frame = new JFrame();
+		final JDialog dialog = new JDialog(frame, "Click", true);
+		pane = new JOptionPane();
+		ButtonGroup btnGroup = new ButtonGroup();
+		JToggleButton yes = getButton(frame, pane, op1, Q, ans);
+		JToggleButton no = getButton(frame, pane, op2, Q, ans);
+		JToggleButton can = getButton(frame, pane, cancel, Q, ans);
+		btnGroup.add(yes);
+		btnGroup.add(no);
+		btnGroup.add(can);
+		pane.setMessage(str);
+		pane.setMessageType(JOptionPane.QUESTION_MESSAGE);
+		pane.setOptions(new Object[] { yes, no, can });
 		
-		pane = new JOptionPane(str, JOptionPane.QUESTION_MESSAGE, JOptionPane.YES_NO_CANCEL_OPTION, null, options, null);
-		pane.addPropertyChangeListener(this);
-		final JDialog dialog = new JDialog(a.getFrame(), "Click", true);
+		//pane = new JOptionPane(str, JOptionPane.QUESTION_MESSAGE, JOptionPane.YES_NO_CANCEL_OPTION, null, options, null);
+		//pane.addPropertyChangeListener(this);
 		//final JDialog dialog = pane.createDialog("Question");
 		dialog.setContentPane(pane);
 		dialog.setModal(true);
 		dialog.setDefaultCloseOperation(JDialog.DO_NOTHING_ON_CLOSE);
+		
 		dialog.addWindowListener(new WindowAdapter() {
 		
 			// START WINDOWCLOSING
@@ -148,45 +164,41 @@ public class Processor implements PropertyChangeListener {
 			dialog.setVisible(true);
 				
 		}
+		a = ans;
+		//System.out.println(a.getAnswer());
 			
 			
 	}
 	// END DRIVER()
 		
-
-	// START PROPERTYCHANGE
-	public void propertyChange(PropertyChangeEvent e) {
-		// TODO Auto-generated method stub
-		
-		String p = e.getPropertyName();
-		String ans = "";
-		int finalAns = 0;
-		if(pane.isVisible() && (e.getSource() == pane) && (JOptionPane.VALUE_PROPERTY.equals(p) || JOptionPane.INPUT_VALUE_PROPERTY.equals(p))) {
-					
-			if(pane.getValue() == JOptionPane.UNINITIALIZED_VALUE || pane.getValue() == null) {
-				return;
-			}
-			else {
-				int choice = 0;
+	public static JToggleButton getButton(final JFrame frame, final JOptionPane p, String text, Speech s, final Answer x) {
+		final JToggleButton button = new JToggleButton(text);
+		ActionListener actionListener = new ActionListener() {
+			
+			public void actionPerformed(ActionEvent actionEvent) {
+				
+				p.setValue(button.getText());
+				int choice = 0, finalAns = 0;
 				String answer = new String();
-				ans = pane.getValue().toString();
+				answer = p.getValue().toString();
 				JFrame fr = new JFrame();
-				String l = "", yes = "", no = "";
+				String l = "", yes = "", no = "", sure = "";
 				if (lang) {
 					
 					l = "eng";
 					yes = sp.getEngYes();
 					no = sp.getEngNo();
+					sure = "Are you sure about your answer?";
 				}
 				else {
 					
 					l = "fil";
 					yes = sp.getFilYes();
 					no = sp.getFilNo();
-					
+					sure = "Sigurado na ba kayo sa inyong sagot?";
 				}
 				
-				if(ans == sp.getEngYes() || ans == sp.getFilYes()) {
+				if(answer.compareTo(yes) == 0) {
 					String file = "bml/" + l + "/repeatOption.xml";
 					System.out.println(file);
 					finalAns = JOptionPane.YES_OPTION;
@@ -196,38 +208,40 @@ public class Processor implements PropertyChangeListener {
 					choice = JOptionPane.showConfirmDialog(fr, "Are you sure?");
 							
 				}
-				else if(ans == sp.getEngNo() || ans == sp.getFilNo()) {
+				else if(answer.compareTo(no) == 0) {
 					String file = "bml/" + l + "/repeatOption.xml";
 					finalAns = JOptionPane.NO_OPTION;
 					//editXML(file,no);
 					//execGreta(file);
 					//answer = "No";
-					choice = JOptionPane.showConfirmDialog(fr, "Are you sure?");
+					choice = JOptionPane.showConfirmDialog(fr, sure);
 			
 				}
-				else if(ans == "Cancel" || ans == "Ikansela") {
+				else if(answer.compareTo("Cancel") == 0 || answer.compareTo("Ikansela") == 0) {
 					
-					choice = JOptionPane.showConfirmDialog(fr, "Are you sure?");
+					choice = JOptionPane.showConfirmDialog(fr, sure);
 					
 				}
 						
 				if(choice == JOptionPane.YES_OPTION) {
-					
-					a.setAnswer(finalAns);
-					a.setConfirm(true);
-					a.getFrame().dispose();
+					x.setAnswer(finalAns);
+					x.setConfirm(true);
+					x.getFrame().dispose();
 					fr.dispose();
+					frame.dispose();
 					//System.exit(0);
 				
 				}
-						
+				
 			}
-		}
-		// END IF	
-	
+			
+		};
+		button.addActionListener(actionListener);
+		
+		return button;
 	}
-	// END PROPERTYCHANGE
-
+	
+	
 	public static void editXML(String filename, String speech) {
 		
 		XMLmod mod = new XMLmod();
@@ -262,7 +276,7 @@ public class Processor implements PropertyChangeListener {
 		}
 		
 	}
-	
+	/*
 	public static void execGreta(String filename) {
 		
 		
@@ -270,6 +284,6 @@ public class Processor implements PropertyChangeListener {
 		greta.executeArea(filename);
 		
 	}
-	
+	*/
 	
 }
