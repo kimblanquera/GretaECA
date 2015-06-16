@@ -1,41 +1,41 @@
-14:01:59: Creating resource group General
-14:01:59: Creating resource group Internal
-14:01:59: Creating resource group Autodetect
-14:01:59: SceneManagerFactory for type 'DefaultSceneManager' registered.
-14:01:59: Registering ResourceManager for type Material
-14:01:59: Registering ResourceManager for type Mesh
-14:01:59: Registering ResourceManager for type Skeleton
-14:01:59: MovableObjectFactory for type 'ParticleSystem' registered.
-14:01:59: OverlayElementFactory for type Panel registered.
-14:01:59: OverlayElementFactory for type BorderPanel registered.
-14:01:59: OverlayElementFactory for type TextArea registered.
-14:01:59: Registering ResourceManager for type Font
-14:01:59: ArchiveFactory for archive type FileSystem registered.
-14:01:59: ArchiveFactory for archive type Zip registered.
-14:01:59: FreeImage version: 3.10.0
-14:01:59: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
-14:01:59: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2
-14:01:59: DDS codec registering
-14:01:59: Registering ResourceManager for type HighLevelGpuProgram
-14:01:59: Registering ResourceManager for type Compositor
-14:01:59: MovableObjectFactory for type 'Entity' registered.
-14:01:59: MovableObjectFactory for type 'Light' registered.
-14:01:59: MovableObjectFactory for type 'BillboardSet' registered.
-14:01:59: MovableObjectFactory for type 'ManualObject' registered.
-14:01:59: MovableObjectFactory for type 'BillboardChain' registered.
-14:01:59: MovableObjectFactory for type 'RibbonTrail' registered.
-14:01:59: Loading library ./Ogre/DLL\RenderSystem_Direct3D9
-14:01:59: Installing plugin: D3D9 RenderSystem
-14:01:59: D3D9 : Direct3D9 Rendering Subsystem created.
-14:01:59: D3D9: Driver Detection Starts
-14:01:59: D3D9: Driver Detection Ends
-14:01:59: Plugin successfully installed
-14:01:59: Loading library ./Ogre/DLL\RenderSystem_GL
-14:01:59: Installing plugin: GL RenderSystem
-14:01:59: OpenGL Rendering Subsystem created.
-14:01:59: Plugin successfully installed
-14:01:59: Loading library ./Ogre/DLL\Plugin_OctreeSceneManager
-14:01:59: Installing plugin: Octree & Terrain Scene Manager
-14:01:59: Plugin successfully installed
-14:01:59: *-*-* OGRE Initialising
-14:01:59: *-*-* Version 1.6.1 (Shoggoth)
+20:30:20: Creating resource group General
+20:30:20: Creating resource group Internal
+20:30:20: Creating resource group Autodetect
+20:30:20: SceneManagerFactory for type 'DefaultSceneManager' registered.
+20:30:20: Registering ResourceManager for type Material
+20:30:20: Registering ResourceManager for type Mesh
+20:30:20: Registering ResourceManager for type Skeleton
+20:30:20: MovableObjectFactory for type 'ParticleSystem' registered.
+20:30:20: OverlayElementFactory for type Panel registered.
+20:30:20: OverlayElementFactory for type BorderPanel registered.
+20:30:20: OverlayElementFactory for type TextArea registered.
+20:30:20: Registering ResourceManager for type Font
+20:30:20: ArchiveFactory for archive type FileSystem registered.
+20:30:20: ArchiveFactory for archive type Zip registered.
+20:30:20: FreeImage version: 3.10.0
+20:30:20: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+20:30:20: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2
+20:30:20: DDS codec registering
+20:30:20: Registering ResourceManager for type HighLevelGpuProgram
+20:30:20: Registering ResourceManager for type Compositor
+20:30:20: MovableObjectFactory for type 'Entity' registered.
+20:30:20: MovableObjectFactory for type 'Light' registered.
+20:30:20: MovableObjectFactory for type 'BillboardSet' registered.
+20:30:20: MovableObjectFactory for type 'ManualObject' registered.
+20:30:20: MovableObjectFactory for type 'BillboardChain' registered.
+20:30:20: MovableObjectFactory for type 'RibbonTrail' registered.
+20:30:20: Loading library ./Ogre/DLL\RenderSystem_Direct3D9
+20:30:22: Installing plugin: D3D9 RenderSystem
+20:30:22: D3D9 : Direct3D9 Rendering Subsystem created.
+20:30:23: D3D9: Driver Detection Starts
+20:30:23: D3D9: Driver Detection Ends
+20:30:23: Plugin successfully installed
+20:30:23: Loading library ./Ogre/DLL\RenderSystem_GL
+20:30:24: Installing plugin: GL RenderSystem
+20:30:24: OpenGL Rendering Subsystem created.
+20:30:27: Plugin successfully installed
+20:30:27: Loading library ./Ogre/DLL\Plugin_OctreeSceneManager
+20:30:28: Installing plugin: Octree & Terrain Scene Manager
+20:30:28: Plugin successfully installed
+20:30:28: *-*-* OGRE Initialising
+20:30:28: *-*-* Version 1.6.1 (Shoggoth)

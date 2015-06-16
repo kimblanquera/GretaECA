@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE bml SYSTEM "bml.dtd" []>
 <bml>
 	<gesture id="ges1"  start="0.03" end="1.28">
 		<description level="1" type="gretabml">

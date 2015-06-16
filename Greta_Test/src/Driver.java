@@ -29,15 +29,18 @@ public class Driver {
 		Speech q = new Speech();
 		String disp = "", yes = "", no = "", lang = "";
 
-		// SET UP BODY PART LIST
+		// SET UP BODY PART LIST - TESTED: SUCCESSFULL
 		ArrayList<BodyPart> engList = new ArrayList<BodyPart>();
 		ArrayList<BodyPart> filList = new ArrayList<BodyPart>();
+		ArrayList<String> tokens = new ArrayList<String>();
 		String engFile = "../Reference Files/Body Parts - English.csv";
 		String filFile = "../Reference Files/Body Parts - Filipino.csv";
 
 		engList = initPartList(engFile);
 		filList = initPartList(filFile);
-
+		
+		//-----------------------------------------------------------------------
+		
 		// SET UP SELECTION
 
 		JFrame frame = new JFrame();
@@ -60,8 +63,6 @@ public class Driver {
 			s = "Language: English\n\nBegin consultation?";
 			start = JOptionPane.showConfirmDialog(frame, s);
 
-			//System.out.println("English");
-
 		}
 		else if(choice == 1) {
 
@@ -79,6 +80,7 @@ public class Driver {
 		}
 
 		if(start == JOptionPane.YES_OPTION) {
+		
 			Answer ans = new Answer();
 			String question = "", bpFile = "";
 			Speech Q = new Speech();
@@ -93,7 +95,7 @@ public class Driver {
 				// GET LIST OF QUESTIONS
 				list = speechInt.getQuestionByStep(step);
 				next = false; // if true, then go to next block
-
+				
 				// ASK EACH QUESTION
 				for (c = 0; c < list.size() && !next && !cancel; c++) {
 
@@ -120,10 +122,11 @@ public class Driver {
 						bpFile = searchPart(questionTokens, filList);
 
 					}
-
-					//editXML(xmlFile, question);
-					//execGreta(xmlFile);
-					//execGreta(bpFile);
+					
+					bpFile = "bml/" + bpFile;
+					editXML(xmlFile, question);
+					execGreta(xmlFile);
+					execGreta(bpFile);
 					ans = displayUI(Q,eng);
 					answer = ans.getAnswer();
 
@@ -150,8 +153,6 @@ public class Driver {
 
 					}
 
-
-
 				}
 
 				if(!next) {
@@ -175,6 +176,8 @@ public class Driver {
 				}
 				catch(InterruptedException e) {
 
+					e.printStackTrace();
+					
 				}
 
 
@@ -182,8 +185,10 @@ public class Driver {
 
 			System.out.println("Ended.");
 			System.exit(0);
+	
 		}
 
+		
 		/*
 		 SwingUtilities.invokeLater(new Runnable() {
 	            @Override
@@ -198,7 +203,7 @@ public class Driver {
 
 	} // END MAIN
 
-	// READS FROM CSV AND SAVES TO ARRAYLIST
+	// READS FROM CSV AND SAVES TO ARRAYLIST - TESTED: SUCCESSFUL
 	public static ArrayList<BodyPart> initPartList(String fileName) {
 
 		ArrayList<BodyPart> list = new ArrayList<BodyPart>();
@@ -206,7 +211,7 @@ public class Driver {
 
 		try {
 			String newLine = "";
-			String delimiter = ","
+			String delimiter = ",";
 			readCSV = new BufferedReader(new FileReader(fileName));
 
 			while((newLine = readCSV.readLine()) != null) {
@@ -238,21 +243,24 @@ public class Driver {
 
 	}
 
+	// TOKENIZE QUESTION - TESTED: SUCCESSFUL
 	public static ArrayList<String> parseQuestion(String question) {
 
-		ArrayList<String> list = new ArrayList();
-		String array[] = question.split();
-		int max = array.size();
+		ArrayList<String> list = new ArrayList<String>();
+		String array[] = question.split(" ");
+		int max = array.length;
 		int c;
 
 		for(c = 0; c < max; c++) {
-
-			list.add(array.get(c));
+			list.add(array[c]);
 
 		}
 
+		return list;
+		
 	}
 
+	// SEARCH FOR BODY PART AND RETURN XML - TESTED: SUCCESSFUL
 	public static String searchPart(ArrayList<String> tokens, ArrayList<BodyPart> bpList) {
 
 		int maxTokens = tokens.size();
@@ -260,15 +268,16 @@ public class Driver {
 		int c, d;
 
 		for(c = 0; c < maxTokens; c++) {
-
+			
+			
 			String tok = tokens.get(c);
-
+			
 			for (d = 0; d < maxBP; d++) {
-
+				
 				BodyPart bp = new BodyPart();
 				bp = bpList.get(d);
-
-				if(tok == bp.getPart()) {
+				
+				if(tok.compareTo(bp.getPart()) == 0) {
 					bp.setUsed(true);
 					return bp.getXMLFile();
 				}

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bml>
     <speech id="s1" language="english" start="0.0"
-        text="Does the patient have very hard breathing?"
-        type="application/wav" voice="openmary">
+        text="Does the patient vomit everything?" type="application/wav" voice="openmary">
         <description level="1" type="gretabml">
             <reference>tmp/from-fml-apml.pho</reference>
-        </description>Does the patient have very hard breathing?</speech>
+        </description>Does the patient vomit everything?</speech>
     <head end="1.51" id="head1" start="0.20">
         <description level="1" type="gretabml">
             <reference>head=head_very_down</reference>

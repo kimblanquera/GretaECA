@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE bml SYSTEM "bml.dtd" []>
 <bml>
 	<head id="head1"  start="0.14" end="3.98">
 		<description level="1" type="gretabml">

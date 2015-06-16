@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE bml SYSTEM "bml.dtd" []>
 <bml>
-	<gesture id="ges1"  start="0.03" end="2.97">
+	<gesture id="ges1"  start="0.04" end="2.42">
 		<description level="1" type="gretabml">
-		<reference>BODY=HEAD</reference>
+		<reference>DEICTIC=SELF</reference>
 		<intensity>1.00</intensity>
 			<FLD.value>0.00</FLD.value>
 			<PWR.value>0.00</PWR.value>
