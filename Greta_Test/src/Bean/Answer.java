@@ -1,18 +1,16 @@
 package Bean;
 
-import java.beans.PropertyChangeListener;
-
 import javax.swing.JFrame;
 
 public class Answer {
 
 	private boolean confirm;
-	private int answer;
+	private String answer;
 	private JFrame fr;
 	
 	public Answer(){}
 	
-	public Answer(Boolean c, int ans, JFrame f) {
+	public Answer(Boolean c, String ans, JFrame f) {
 		
 		confirm = c;
 		answer = ans;
@@ -24,7 +22,7 @@ public class Answer {
 		return confirm;
 	}
 	
-	public int getAnswer() {
+	public String getAnswer() {
 		return answer;
 	}
 	
@@ -40,7 +38,7 @@ public class Answer {
 		this.confirm = x;	
 	}
 	
-	public void setAnswer(int x) {
+	public void setAnswer(String x) {
 		this.answer = x;
 	}
 

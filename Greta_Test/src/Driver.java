@@ -24,10 +24,11 @@ public class Driver {
 
 		ArrayList<Speech> list = new ArrayList<Speech>();
 		SpeechInterface speechInt = new SpeechImplementation();
+		AnswerInterface ansInt = new AnswerImplementation();
 		boolean cancel = false, eng = false, next = false;
 		int start = 0, x = 0;
 		Speech q = new Speech();
-		String disp = "", yes = "", no = "", lang = "";
+		String disp = "", lang = "";
 
 		// SET UP BODY PART LIST - TESTED: SUCCESSFULL
 		ArrayList<BodyPart> engList = new ArrayList<BodyPart>();
@@ -82,9 +83,9 @@ public class Driver {
 		if(start == JOptionPane.YES_OPTION) {
 		
 			Answer ans = new Answer();
-			String question = "", bpFile = "", optionsFile = "", optionList = "";
+			String question = "", bpFile = "", optionsFile = "", optionList = "", answer, yesStr, noStr, cancelStr;
 			Speech Q = new Speech();
-			int step = 1, c, answer;
+			int step = 1, c;
 			XMLinfo xml = new XMLinfo();
 			xml.setCurrType(-1);
 			int type = 0;
@@ -109,6 +110,9 @@ public class Driver {
 
 					if(eng) {
 						
+						yesStr = Q.getEngYes();
+						noStr = Q.getEngNo();
+						cancelStr = "Cancel";
 						optionList = "Your options are: " + Q.getEngYes() + ", " + Q.getEngNo() + " and Cancel";
 						optionsFile = "namehere";
 						question = Q.getEngText();
@@ -118,6 +122,9 @@ public class Driver {
 					}
 					else {
 						
+						yesStr = Q.getEngYes();
+						noStr = Q.getEngNo();
+						cancelStr = "Ikansela";
 						optionList = "Ang inyong mga opsyon ay: " + Q.getFilYes() + ", " + Q.getFilNo() + " at Ikansela";
 						optionsFile = "namehere";
 						question = Q.getFilText();
@@ -133,30 +140,39 @@ public class Driver {
 					//execGreta(bpFile);
 					//editXML(optionsFile, optionList);
 					//execGreta(optionsFile);
-					displayUI(Q,eng);
+					ans = displayUI(Q,eng);
 					answer = ans.getAnswer();
-
+					
+					
 					// INSERT REPLY STUFF HERE
-					xml = speechInt.getXML(3, lang, xml.getCurrType());
-					xmlFile = xml.getFileName();
-					execGreta(xmlFile);
+					//xml = speechInt.getXML(3, lang, xml.getCurrType());
+					//xmlFile = xml.getFileName();
+					//execGreta(xmlFile);
 
-					if(answer == JOptionPane.YES_OPTION) {
-
+					if(answer.equalsIgnoreCase(yesStr)) {
+						
+						ansInt.addAnswer(ans, Q); // ADDS TO DATABASE
 						next = true;
 						step = Q.getYesNext();
-						//System.out.println("Next step: " + step);
+						System.out.println("Next step: " + step);
+						
 
 					}
-					else if(answer == JOptionPane.NO_OPTION) {
+					else if(answer.equalsIgnoreCase(noStr)) {
 
 						//System.out.println("\nanswered no");
+						ansInt.addAnswer(ans, Q); // ADDS TO DATABASE
 
 					}
-					else if(answer == JOptionPane.CANCEL_OPTION) {
+					else if(answer.equalsIgnoreCase("N/A")) {
+						
+						ansInt.addAnswer(ans, Q); // ADDS TO DATABASE
+						
+					}
+					else if(answer.equalsIgnoreCase(cancelStr)) {
 
 						cancel = true;
-
+						
 					}
 
 				}
@@ -186,7 +202,7 @@ public class Driver {
 					
 				}
 
-
+				
 			}while(!cancel && step != 0 && list.size() > 0);
 
 			System.out.println("Ended.");
@@ -300,7 +316,7 @@ public class Driver {
 	public static Answer displayUI(Speech Q, boolean eng) {
 		Answer a = new Answer();
 		Processor p = new Processor(a,Q,eng);
-		System.out.println(p.getAns().getAnswer());
+		//System.out.println(p.getAns().getAnswer());
 		return p.getAns();
 
 	}

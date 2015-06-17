@@ -18,22 +18,20 @@ public class AnswerImplementation implements AnswerInterface {
 	public int addAnswer(Answer a, Speech q) {
 		
 		try {
-            newCon = ConnectInt.getNewCon();
+            
+			newCon = ConnectInt.getNewCon();
             con = newCon.getConnection();
-            String query = "INSERT INTO answer VALUES(''," + a.getAnswer() + ");";
+            
+            System.out.println(q.getID() + " " + a.getAnswer());
+            
+            //String query = "INSERT INTO patient_answers_table VALUES(" + q.getID() + ", '" + a.getAnswer() + "');";
+            String query = "INSERT INTO patient_answers_table VALUES(2, 'N/A');";
             PreparedStatement p = con.prepareStatement(query);
-            p.executeQuery(query);
-            
-            query = "SELECT * FROM answer ORDER BY answerID DESC LIMIT 1 ";
-            p = con.prepareStatement(query);
-            ResultSet result = p.executeQuery(query);
-            
-            int x = result.getInt("answerID");
-            
-            query = "INSERT INTO questionAnswer VALUES(" + Integer.toString(q.getID())  + ", " + Integer.toString(x) + ");";
+            p.executeUpdate(query);
             
             con.close();
             return 1;
+            
         }
         catch(SQLException e) {
             System.out.println(e);

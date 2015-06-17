@@ -90,10 +90,6 @@ public class Speech {
 		return confirmed;
 	}
 	
-	public int getAnswer() {
-		return answer;
-	}
-	
 	public void setID(int x) {
 		this.ID = x;
 	}
@@ -146,8 +142,5 @@ public class Speech {
 		this.confirmed = x;
 	}
 	
-	public void setAnswer(int x) {
-		this.answer = x;
-	}
 	
 }

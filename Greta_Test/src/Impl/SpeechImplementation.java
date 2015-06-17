@@ -33,7 +33,7 @@ public class SpeechImplementation implements SpeechInterface {
             while(result.next()) {
             	
             	Speech s = new Speech();
-            	s.setID(result.getInt("ID"));
+            	s.setID(result.getInt("question_id"));
             	s.setStep(result.getInt("step"));
             	s.setTextTypeiD(result.getInt("textTypeID"));
                 s.setIntentTypeID(result.getInt("intentTypeID"));
@@ -276,7 +276,7 @@ public class SpeechImplementation implements SpeechInterface {
             while(result.next()) {
             	
             	Speech s = new Speech();
-            	s.setID(result.getInt("ID"));
+            	s.setID(result.getInt("question_id"));
             	s.setStep(result.getInt("step"));
             	s.setTextTypeiD(result.getInt("textTypeID"));
                 s.setIntentTypeID(result.getInt("intentTypeID"));
