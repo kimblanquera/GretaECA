@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bml>
+	<speech id="s1" language="english" start="0.0" text="" type="application/wav" voice="openmary">
+        <description level="1" type="gretabml">
+            <reference>tmp/from-fml-apml.pho</reference>
+        </description>
+	</speech>
+	<face id="face1"  start="0.07" end="1.86">
+		<description level="1" type="gretabml">
+		<reference>certainty=certain</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>0.00</FLD.value>
+			<PWR.value>0.00</PWR.value>
+			<REP.value>0.00</REP.value>
+			<SPC.value>0.00</SPC.value>
+			<TMP.value>0.00</TMP.value>
+		</description>
+	</face>
+	<gesture id="ges1"  start="0.72" end="1.85">
+		<description level="1" type="gretabml">
+		<reference>BODY=CLASPEDHANDS</reference>
+		<intensity>1.00</intensity>
+			<FLD.value>-0.50</FLD.value>
+			<PWR.value>0.53</PWR.value>
+			<REP.value>0.04</REP.value>
+			<SPC.value>-0.81</SPC.value>
+			<TMP.value>-1.00</TMP.value>
+		</description>
+	</gesture>
+</bml>

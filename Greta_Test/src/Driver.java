@@ -113,8 +113,8 @@ public class Driver {
 						yesStr = Q.getEngYes();
 						noStr = Q.getEngNo();
 						cancelStr = "Cancel";
-						optionList = "Your options are: " + Q.getEngYes() + ", " + Q.getEngNo() + " and Cancel";
-						optionsFile = "namehere";
+						optionList = "Your options are " + Q.getEngYes() + ", " + Q.getEngNo() + ", Not Applicable and Cancel";
+						optionsFile = "bml/eng/readOptions.xml";
 						question = Q.getEngText();
 						questionTokens = parseQuestion(question);
 						bpFile = searchPart(questionTokens, engList);
@@ -125,8 +125,8 @@ public class Driver {
 						yesStr = Q.getEngYes();
 						noStr = Q.getEngNo();
 						cancelStr = "Ikansela";
-						optionList = "Ang inyong mga opsyon ay: " + Q.getFilYes() + ", " + Q.getFilNo() + " at Ikansela";
-						optionsFile = "namehere";
+						optionList = "Ang inyong mga opsyon ay " + Q.getFilYes() + ", " + Q.getFilNo() + " at Ikansela";
+						optionsFile = "bml/fil/readOptions.xml";
 						question = Q.getFilText();
 						question = strPhonetics(question);
 						questionTokens = parseQuestion(question);
