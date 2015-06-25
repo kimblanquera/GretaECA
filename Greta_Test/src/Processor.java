@@ -75,8 +75,8 @@ public class Processor {
 	public Processor(){}
 	
 	// START DRIVER()
-	public Processor(Answer ans, Speech Q, boolean eng) {
-		
+	public Processor(Answer ans, Speech Q, boolean eng, String xmlFile) {
+		final boolean lang = eng;
 		a = ans;
 		a.setConfirm(false);
 		sp = Q;
@@ -86,6 +86,8 @@ public class Processor {
 		String op1 = new String();
 		String op2 = new String();
 		String cancel = new String();
+		String again = new String();
+		String title = new String();
 		
 		if(eng) {
 			
@@ -93,6 +95,8 @@ public class Processor {
 			op2 = Q.getEngNo();
 			str = Q.getEngText();
 			cancel = "Cancel";
+			again = "Repeat the question";
+			title = "Consultation";
 			
 		}
 		else {
@@ -101,24 +105,27 @@ public class Processor {
 			op2 = Q.getFilNo();
 			str = Q.getFilText();
 			cancel = "Ikansela";
-			
+			again = "Ulitin ang tanong";
+			title = "Konsultasyon";
 		}
 		
 		JFrame frame = new JFrame();
-		final JDialog dialog = new JDialog(frame, "Click", true);
+		final JDialog dialog = new JDialog(frame, title, true);
 		pane = new JOptionPane();
 		ButtonGroup btnGroup = new ButtonGroup();
-		JToggleButton yes = getButton(frame, pane, op1, Q, ans, eng);
-		JToggleButton no = getButton(frame, pane, op2, Q, ans, eng);
-		JToggleButton na = getButton(frame, pane, "N/A", Q, ans, eng);
-		JToggleButton can = getButton(frame, pane, cancel, Q, ans, eng);
+		JToggleButton yes = getButton(frame, pane, op1, Q, ans, eng, xmlFile);
+		JToggleButton no = getButton(frame, pane, op2, Q, ans, eng, xmlFile);
+		JToggleButton na = getButton(frame, pane, "N/A", Q, ans, eng, xmlFile);
+		JToggleButton can = getButton(frame, pane, cancel, Q, ans, eng, xmlFile);
+		JToggleButton repeat = getButton(frame, pane, again, Q, ans, eng, xmlFile);
 		btnGroup.add(yes);
 		btnGroup.add(no);
 		btnGroup.add(na);
+		btnGroup.add(repeat);
 		btnGroup.add(can);
 		pane.setMessage(str);
 		pane.setMessageType(JOptionPane.QUESTION_MESSAGE);
-		pane.setOptions(new Object[] { yes, no, na, can });
+		pane.setOptions(new Object[] { yes, no, na, repeat, can });
 		
 		//pane = new JOptionPane(str, JOptionPane.QUESTION_MESSAGE, JOptionPane.YES_NO_CANCEL_OPTION, null, options, null);
 		//pane.addPropertyChangeListener(this);
@@ -133,7 +140,13 @@ public class Processor {
 			public void windowClosing(WindowEvent we) {
 			
 				JFrame fr = new JFrame();
-				int choice = JOptionPane.showConfirmDialog(fr, "Are you sure?");
+				String s = new String();
+				if(lang) {
+					s = "Are you sure you want to cancel?";
+				}
+				else
+					s = "Sigurado ba kayo sa inyong sagot?";
+				int choice = JOptionPane.showConfirmDialog(fr,s);
 				if(choice == JOptionPane.YES_OPTION) {
 					
 					dialog.dispose();
@@ -164,7 +177,7 @@ public class Processor {
 	}
 	// END DRIVER()
 		
-	public static JToggleButton getButton(final JFrame frame, final JOptionPane p, String text, final Speech s, final Answer x, final Boolean lang) {
+	public static JToggleButton getButton(final JFrame frame, final JOptionPane p, String text, final Speech s, final Answer x, final Boolean lang, final String xmlFile) {
 		final JToggleButton button = new JToggleButton(text);
 		ActionListener actionListener = new ActionListener() {
 			
@@ -194,27 +207,40 @@ public class Processor {
 				if(answer.equalsIgnoreCase(yes)) {
 					String file = "bml/" + l + "/repeatOption.xml";
 					System.out.println(file);
-					//editXML(file,yes);
-					//execGreta(file);
-					//answer = "Yes";
-					choice = JOptionPane.showConfirmDialog(fr, "Are you sure?");
+					editXML(file,yes);
+					execGreta(file);
+					editXML(file,sure);
+					execGreta(file);
+					choice = JOptionPane.showConfirmDialog(fr, sure);
 							
 				}
 				else if(answer.equalsIgnoreCase("N/A")) {
-					//String file = "bml/" + l + "/repeatOption.xml";
-					//System.out.println(file);
-					//editXML(file,yes);
-					//execGreta(file);
-					choice = JOptionPane.showConfirmDialog(fr, "Are you sure?");
+					String file = "bml/" + l + "/repeatOption.xml";
+					System.out.println(file);
+					editXML(file,yes);
+					execGreta(file);
+					editXML(file,sure);
+					execGreta(file);
+					choice = JOptionPane.showConfirmDialog(fr, sure);
 					
 				}
 				else if(answer.equalsIgnoreCase(no)) {
-					//String file = "bml/" + l + "/repeatOption.xml";
-					//editXML(file,no);
-					//execGreta(file);
+					String file = "bml/" + l + "/repeatOption.xml";
+					editXML(file,no);
+					execGreta(file);
 					//answer = "No";
+					editXML(file,sure);
+					execGreta(file);
 					choice = JOptionPane.showConfirmDialog(fr, sure);
+					
 			
+				}
+				else if(answer.equalsIgnoreCase("Repeat the question") || answer.equalsIgnoreCase("Ulitin ang tanong")) {
+					
+					//choice = JOptionPane.showConfirmDialog(fr, sure);
+					execGreta(xmlFile);
+					choice = JOptionPane.NO_OPTION;
+					
 				}
 				else if(answer.equalsIgnoreCase("Cancel") || answer.equalsIgnoreCase("Ikansela")) {
 					
@@ -275,7 +301,7 @@ public class Processor {
 		}
 		
 	}
-	/*
+	
 	public static void execGreta(String filename) {
 		
 		
@@ -283,6 +309,6 @@ public class Processor {
 		greta.executeArea(filename);
 		
 	}
-	*/
+	
 	
 }

@@ -36,7 +36,8 @@ public class Driver {
 		ArrayList<String> tokens = new ArrayList<String>();
 		String engFile = "../Reference Files/Body Parts - English.csv";
 		String filFile = "../Reference Files/Body Parts - Filipino.csv";
-
+		String endStr = "";
+		
 		engList = initPartList(engFile);
 		filList = initPartList(filFile);
 		
@@ -63,10 +64,12 @@ public class Driver {
 			lang = "eng";
 			s = "Language: English\n\nBegin consultation?";
 			start = JOptionPane.showConfirmDialog(frame, s);
+			endStr = "Consultation has ended. Thank you.";
 
 		}
 		else if(choice == 1) {
 
+			endStr = "Tapos na ang konsultasyon. Maraming salamat.";
 			eng = false;
 			lang = "fil";
 			s = "Lengwahe: Tagalog\n\nSimulan ang konsultasyon?";
@@ -113,11 +116,12 @@ public class Driver {
 						yesStr = Q.getEngYes();
 						noStr = Q.getEngNo();
 						cancelStr = "Cancel";
-						optionList = "Your options are " + Q.getEngYes() + ", " + Q.getEngNo() + ", Not Applicable and Cancel";
+						optionList = " Your options are " + Q.getEngYes() + ", " + Q.getEngNo() + ", Not Applicable and Cancel";
 						optionsFile = "bml/eng/readOptions.xml";
 						question = Q.getEngText();
 						questionTokens = parseQuestion(question);
 						bpFile = searchPart(questionTokens, engList);
+						
 
 					}
 					else {
@@ -125,7 +129,7 @@ public class Driver {
 						yesStr = Q.getEngYes();
 						noStr = Q.getEngNo();
 						cancelStr = "Ikansela";
-						optionList = "Ang inyong mga opsyon ay " + Q.getFilYes() + ", " + Q.getFilNo() + " at Ikansela";
+						optionList = " Ang inyong mga opsyon ay " + Q.getFilYes() + ", " + Q.getFilNo() + " at Ikansela";
 						optionsFile = "bml/fil/readOptions.xml";
 						question = Q.getFilText();
 						question = strPhonetics(question);
@@ -133,21 +137,26 @@ public class Driver {
 						bpFile = searchPart(questionTokens, filList);
 
 					}
-					
-					//bpFile = "bml/" + bpFile;
-					//editXML(xmlFile, question);
-					//execGreta(xmlFile);
-					//execGreta(bpFile);
-					//editXML(optionsFile, optionList);
-					//execGreta(optionsFile);
-					ans = displayUI(Q,eng);
+					//String text = question.concat(optionList);
+					editXML(xmlFile, question);
+					execGreta(xmlFile);
+					if(!bpFile.isEmpty()) {
+						
+						String path = "bml/";
+						bpFile = path.concat(bpFile);
+						execGreta(bpFile);
+						
+					}
+					editXML(optionsFile, optionList);
+					execGreta(optionsFile);
+					//System.out.println(optionsFile);
+					ans = displayUI(Q,eng,xmlFile);
 					answer = ans.getAnswer();
 					
-					
 					// INSERT REPLY STUFF HERE
-					//xml = speechInt.getXML(3, lang, xml.getCurrType());
-					//xmlFile = xml.getFileName();
-					//execGreta(xmlFile);
+					xml = speechInt.getXML(3, lang, xml.getCurrType());
+					xmlFile = xml.getFileName();
+					execGreta(xmlFile);
 
 					if(answer.equalsIgnoreCase(yesStr)) {
 						
@@ -185,15 +194,15 @@ public class Driver {
 
 				if(step == -1) {
 
-					//String d = "bml/" + lang + "/instruct_hospital.xml";
-					//execGreta(d);
+					String d = "bml/" + lang + "/instruct_hospital.xml";
+					execGreta(d);
 					cancel = true;
 				}
 
 				// PAUSE BEFORE NEXT QUESTION
 				try {
 
-					TimeUnit.SECONDS.sleep(3);
+					TimeUnit.SECONDS.sleep(5);
 
 				}
 				catch(InterruptedException e) {
@@ -205,7 +214,20 @@ public class Driver {
 				
 			}while(!cancel && step != 0 && list.size() > 0);
 
-			System.out.println("Ended.");
+			// END
+			JOptionPane.showMessageDialog(frame, endStr);
+			
+			try {
+
+				TimeUnit.SECONDS.sleep(3);
+
+			}
+			catch(InterruptedException e) {
+
+				e.printStackTrace();
+				
+			}
+			
 			System.exit(0);
 	
 		}
@@ -313,9 +335,9 @@ public class Driver {
 	}
 
 	// SHOWS UI
-	public static Answer displayUI(Speech Q, boolean eng) {
+	public static Answer displayUI(Speech Q, boolean eng, String xmlFile) {
 		Answer a = new Answer();
-		Processor p = new Processor(a,Q,eng);
+		Processor p = new Processor(a,Q,eng, xmlFile);
 		//System.out.println(p.getAns().getAnswer());
 		return p.getAns();
 
@@ -375,12 +397,12 @@ public class Driver {
 
 		for (c = 0; c < max; c++) {
 
-			if(str.charAt(c) == 'a' || str.charAt(c) == 'A') {
+			/*if(str.charAt(c) == 'a' || str.charAt(c) == 'A') {
 
 				str = replace(str, c, "ah");
 				changed = true;
 			}
-			else if(str.charAt(c) == 'e' || str.charAt(c) == 'E') {
+			else*/ if(str.charAt(c) == 'e' || str.charAt(c) == 'E') {
 
 				str = replace(str, c, "eh");
 				changed = true;
