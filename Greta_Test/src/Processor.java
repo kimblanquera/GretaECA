@@ -146,7 +146,7 @@ public class Processor {
 				}
 				else
 					s = "Sigurado ba kayo sa inyong sagot?";
-				int choice = JOptionPane.showConfirmDialog(fr,s);
+				int choice = JOptionPane.showConfirmDialog(fr,s); // change language of options!!!
 				if(choice == JOptionPane.YES_OPTION) {
 					
 					dialog.dispose();
@@ -188,13 +188,17 @@ public class Processor {
 				String answer = new String();
 				answer = p.getValue().toString();
 				JFrame fr = new JFrame();
-				String l = "", yes = "", no = "", sure = "";
+				String l = "", yes = "", no = "", sure = "", yesStr = "", noStr = "";
+				
 				if (lang) {
 					
 					l = "eng";
 					yes = s.getEngYes();
 					no = s.getEngNo();
 					sure = "Are you sure about your answer?";
+					yesStr = "Yes";
+					noStr = "No";
+					
 				}
 				else {
 					
@@ -202,37 +206,50 @@ public class Processor {
 					yes = s.getFilYes();
 					no = s.getFilNo();
 					sure = "Sigurado na ba kayo sa inyong sagot?";
+					yesStr = "Oo";
+					noStr = "Hindi";
 				}
+				
+				String[] options = {
+					
+					yesStr,
+					noStr
+						
+				};
 				
 				if(answer.equalsIgnoreCase(yes)) {
 					String file = "bml/" + l + "/repeatOption.xml";
 					System.out.println(file);
 					editXML(file,yes);
 					execGreta(file);
+					shortWait();
 					editXML(file,sure);
 					execGreta(file);
-					choice = JOptionPane.showConfirmDialog(fr, sure);
-							
+					choice = JOptionPane.showOptionDialog(fr, sure, "", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
+					shortWait();
+					
 				}
 				else if(answer.equalsIgnoreCase("N/A")) {
 					String file = "bml/" + l + "/repeatOption.xml";
 					System.out.println(file);
 					editXML(file,yes);
+					shortWait();
 					execGreta(file);
 					editXML(file,sure);
 					execGreta(file);
-					choice = JOptionPane.showConfirmDialog(fr, sure);
-					
+					choice = JOptionPane.showOptionDialog(fr, sure, "", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
+					shortWait();
 				}
 				else if(answer.equalsIgnoreCase(no)) {
 					String file = "bml/" + l + "/repeatOption.xml";
 					editXML(file,no);
 					execGreta(file);
+					shortWait();
 					//answer = "No";
 					editXML(file,sure);
 					execGreta(file);
-					choice = JOptionPane.showConfirmDialog(fr, sure);
-					
+					choice = JOptionPane.showOptionDialog(fr, sure, "", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
+					shortWait();
 			
 				}
 				else if(answer.equalsIgnoreCase("Repeat the question") || answer.equalsIgnoreCase("Ulitin ang tanong")) {
@@ -240,11 +257,12 @@ public class Processor {
 					//choice = JOptionPane.showConfirmDialog(fr, sure);
 					execGreta(xmlFile);
 					choice = JOptionPane.NO_OPTION;
+					shortWait();
 					
 				}
 				else if(answer.equalsIgnoreCase("Cancel") || answer.equalsIgnoreCase("Ikansela")) {
 					
-					choice = JOptionPane.showConfirmDialog(fr, sure);
+					choice = JOptionPane.showOptionDialog(fr, sure, "", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
 					
 				}
 						
@@ -310,5 +328,37 @@ public class Processor {
 		
 	}
 	
+public static void longWait() {
+		
+		try {
+
+			TimeUnit.SECONDS.sleep(10);
+
+		}
+		catch(InterruptedException e) {
+
+			e.printStackTrace();
+			
+		}
+
+		
+	}
+	
+	public static void shortWait() {
+		
+		try {
+
+			TimeUnit.SECONDS.sleep(5);
+
+		}
+		catch(InterruptedException e) {
+
+			e.printStackTrace();
+			
+		}
+
+		
+	}
+
 	
 }

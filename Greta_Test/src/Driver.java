@@ -1,13 +1,19 @@
 import com.sun.org.apache.xerces.internal.parsers.DOMParser;
 import com.sun.org.apache.xml.internal.serialize.OutputFormat;
 import com.sun.org.apache.xml.internal.serialize.XMLSerializer;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.*;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
+
 import javax.swing.*;
+
 import Bean.*;
 import Impl.*;
 import Interface.*;
@@ -17,16 +23,22 @@ public class Driver {
 	// MAIN CONTROL
 	public static void main(String args[]){
 
+		// START WINDOW AND INSTRUCTIONS
+		
+		String greeting = "Hello and welcome to the GetBetter System.\n\n"
+				+ "During your consultation, you will be asked some questions "
+				+ "regarding your health.\n\nTo answer the question, "
+				+ "please select from the options that will be displayed.";
+		
+		JOptionPane.showMessageDialog(new JFrame(), greeting);
+		
 		// START CONFIGURATION
-
-		GregorianCalendar today = new GregorianCalendar();
-		int t = today.get(Calendar.AM_PM);
-
+		
 		ArrayList<Speech> list = new ArrayList<Speech>();
 		SpeechInterface speechInt = new SpeechImplementation();
 		AnswerInterface ansInt = new AnswerImplementation();
 		boolean cancel = false, eng = false, next = false;
-		int start = 0, x = 0;
+		int start = 0, x = 0, patientType = 0;
 		Speech q = new Speech();
 		String disp = "", lang = "";
 
@@ -85,15 +97,40 @@ public class Driver {
 
 		if(start == JOptionPane.YES_OPTION) {
 		
+			// DETERMINE AGE
+			
+			do {
+			
+				patientType = getAge(eng);
+				
+			}while(patientType == 0);
+			
+			
 			Answer ans = new Answer();
 			String question = "", bpFile = "", optionsFile = "", optionList = "", answer, yesStr, noStr, cancelStr;
 			Speech Q = new Speech();
-			int step = 1, c;
+			int step = 0, c;
 			XMLinfo xml = new XMLinfo();
 			xml.setCurrType(-1);
 			int type = 0;
 			ArrayList<String> questionTokens = new ArrayList<String>();
 
+			if(patientType == 1) {
+			
+				step = 1;
+				
+			}
+			else if(patientType == 2) {
+				
+				step = 2;
+				
+			}
+			else if(patientType == 3) {
+				
+				step = 2;
+				
+			}
+			
 			do {
 
 				// GET LIST OF QUESTIONS
@@ -140,6 +177,7 @@ public class Driver {
 					//String text = question.concat(optionList);
 					editXML(xmlFile, question);
 					execGreta(xmlFile);
+					longWait();
 					if(!bpFile.isEmpty()) {
 						
 						String path = "bml/";
@@ -149,7 +187,7 @@ public class Driver {
 					}
 					editXML(optionsFile, optionList);
 					execGreta(optionsFile);
-					//System.out.println(optionsFile);
+					shortWait();
 					ans = displayUI(Q,eng,xmlFile);
 					answer = ans.getAnswer();
 					
@@ -200,36 +238,16 @@ public class Driver {
 				}
 
 				// PAUSE BEFORE NEXT QUESTION
-				try {
-
-					TimeUnit.SECONDS.sleep(5);
-
-				}
-				catch(InterruptedException e) {
-
-					e.printStackTrace();
-					
-				}
+				shortWait();
 
 				
 			}while(!cancel && step != 0 && list.size() > 0);
 
 			// END
 			JOptionPane.showMessageDialog(frame, endStr);
-			
-			try {
-
-				TimeUnit.SECONDS.sleep(3);
-
-			}
-			catch(InterruptedException e) {
-
-				e.printStackTrace();
-				
-			}
-			
+			shortWait();
 			System.exit(0);
-	
+			
 		}
 
 		
@@ -453,6 +471,131 @@ public class Driver {
 		return newStr;
 
 	}
+	
+	// WAIT FUNCTION
+	public static void longWait() {
+		
+		try {
 
+			TimeUnit.SECONDS.sleep(10);
+
+		}
+		catch(InterruptedException e) {
+
+			e.printStackTrace();
+			
+		}
+
+		
+	}
+	
+	// WAIT FUNCTION
+	public static void shortWait() {
+		
+		try {
+
+			TimeUnit.SECONDS.sleep(5);
+
+		}
+		catch(InterruptedException e) {
+
+			e.printStackTrace();
+			
+		}
+
+		
+	}
+	
+	// DETERMINE PATIENT'S AGE RANGE
+	// BELOW 2 YRS = BABY
+	// 3 - 12 = CHILD
+	// 13+ = ADULT
+	// ^ RESEARCH
+	
+	public static int getAge(boolean lang) {
+	
+		int choice = 0;
+		String str = new String();
+		String older = new String();
+		String younger = new String();
+		String middle = new String();
+		String years = new String();
+		JFrame frame = new JFrame();
+		String yes, no;
+		
+		if(lang) {
+			
+			str = "Is the patient ";
+			older = "older than thirteen years old?";
+			younger = "younger than two years old?";
+			middle = "in between the ages of three and twelve years old?";
+			yes = "Yes";
+			no = "No";
+			
+		}
+		else {
+			
+			str = "Ang pasyente ba ay ";
+			older = "mas matanda sa labing-tatlo taong gulang?";
+			younger = "mas bata sa dalawang taong gulang?";
+			middle = "nasa pagitang ng tatlo at labing-dalawang taong gulang?";
+			yes = "Oo";
+			no = "Hindi";
+			
+			
+		}
+		
+		String[] options = {
+			
+			yes,
+			no
+				
+		};
+		
+		String finalStr = str.concat(younger);
+				
+		choice = JOptionPane.showOptionDialog(frame, finalStr, "", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
+		
+		if(choice == JOptionPane.YES_OPTION) {
+			
+			// THEN PATIENT IS A BABY
+			return 1;
+			
+		}
+		else if(choice == JOptionPane.NO_OPTION){
+			
+			finalStr = str.concat(middle);
+			choice = JOptionPane.showOptionDialog(frame, finalStr, "", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
+			
+			if(choice == JOptionPane.YES_OPTION) {
+				
+				// THEN PATIENT IS A CHILD
+				return 2;
+				
+			}
+			else if(choice == JOptionPane.NO_OPTION) {
+			
+				finalStr = str.concat(older);
+				choice = JOptionPane.showOptionDialog(frame, finalStr, "", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
+				
+				if(choice == JOptionPane.YES_OPTION) {
+					
+					// THEN PATIENT IS AN ADULT
+					return 3;
+					
+				}
+				else if(choice == JOptionPane.NO_OPTION)
+					return 0;
+				
+			}
+				
+			
+		}
+		
+		return 0;
+	
+	}
+	
+	
 
 } // END CLASS DRIVER
